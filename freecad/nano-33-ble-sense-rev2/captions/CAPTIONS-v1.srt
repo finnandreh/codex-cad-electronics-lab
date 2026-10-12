@@ -1,0 +1,207 @@
+1
+00:00:00,050 --> 00:00:01,725
+A sensor board should still sense the
+
+2
+00:00:01,725 --> 00:00:02,866
+world after you put it in a
+
+3
+00:00:02,866 --> 00:00:03,547
+case.
+
+4
+00:00:04,225 --> 00:00:06,688
+This Arduino Nano thirty-three B L E
+
+5
+00:00:06,688 --> 00:00:08,861
+Sense revision two enclosure is designed with
+
+6
+00:00:08,861 --> 00:00:12,198
+OpenAI Codex, in real FreeCAD, recorded with
+
+7
+00:00:12,198 --> 00:00:13,086
+OBS.
+
+8
+00:00:14,014 --> 00:00:16,346
+Arduino supplies the mechanical drawing.
+
+9
+00:00:17,023 --> 00:00:19,074
+The board is forty-three point one six
+
+10
+00:00:19,074 --> 00:00:21,576
+by seventeen point seven six millimetres.
+
+11
+00:00:22,254 --> 00:00:24,171
+Four mounting holes are one point six
+
+12
+00:00:24,171 --> 00:00:26,526
+five millimetres across, on a forty point
+
+13
+00:00:26,526 --> 00:00:28,358
+six four by fifteen point two four
+
+14
+00:00:28,358 --> 00:00:28,870
+grid.
+
+15
+00:00:29,798 --> 00:00:31,994
+We turn those dimensions into a rounded
+
+16
+00:00:31,994 --> 00:00:33,984
+shell with two point four millimetre walls
+
+17
+00:00:33,984 --> 00:00:34,727
+and floor.
+
+18
+00:00:35,404 --> 00:00:37,504
+The dimensions remain editable in the native
+
+19
+00:00:37,504 --> 00:00:38,234
+document.
+
+20
+00:00:38,912 --> 00:00:40,586
+This is a design you can adjust,
+
+21
+00:00:40,586 --> 00:00:41,705
+not just a picture.
+
+22
+00:00:42,633 --> 00:00:44,295
+Four supports locate the board at its
+
+23
+00:00:44,295 --> 00:00:45,438
+mounting holes.
+
+24
+00:00:46,116 --> 00:00:48,278
+Separate posts hold the removable lid.
+
+25
+00:00:48,955 --> 00:00:50,946
+Board thickness is a provisional one point
+
+26
+00:00:50,946 --> 00:00:51,967
+six millimetres;
+
+27
+00:00:51,989 --> 00:00:54,271
+screw choice and component clearance still need
+
+28
+00:00:54,271 --> 00:00:54,892
+checking.
+
+29
+00:00:55,819 --> 00:00:58,601
+A micro USB opening faces the connector.
+
+30
+00:00:59,278 --> 00:01:01,538
+Long slots keep the pin headers accessible.
+
+31
+00:01:02,215 --> 00:01:04,157
+The broad centre opening gives the sensors
+
+32
+00:01:04,157 --> 00:01:05,700
+access to air and light.
+
+33
+00:01:06,378 --> 00:01:08,671
+The finished enclosure still needs real sensing
+
+34
+00:01:08,671 --> 00:01:10,045
+and wireless tests.
+
+35
+00:01:10,972 --> 00:01:12,392
+Lift the lid and see the board
+
+36
+00:01:12,392 --> 00:01:13,584
+seated inside.
+
+37
+00:01:14,261 --> 00:01:16,652
+We use Arduino's official board artwork as
+
+38
+00:01:16,652 --> 00:01:18,183
+a flat visual reference.
+
+39
+00:01:18,861 --> 00:01:20,535
+It shows the layout, but does not
+
+40
+00:01:20,535 --> 00:01:22,589
+prove component heights or clearance.
+
+41
+00:01:23,266 --> 00:01:26,144
+Only the enclosure is exported for manufacturing.
+
+42
+00:01:27,072 --> 00:01:28,953
+The case parts are valid solids, with
+
+43
+00:01:28,953 --> 00:01:31,492
+STEP readback and closed print meshes checked.
+
+44
+00:01:32,169 --> 00:01:34,268
+Next, print a prototype and check the
+
+45
+00:01:34,268 --> 00:01:38,033
+real board, connectors, screws and sensor performance.
+
+46
+00:01:38,960 --> 00:01:40,443
+Upgrade your tools.
+
+47
+00:01:41,120 --> 00:01:42,943
+Get into Codex right away.
+
+48
+00:01:43,620 --> 00:01:45,564
+Designed with OpenAI Codex.
+
+49
+00:01:46,242 --> 00:01:49,933
+FreeCAD, OBS and paid Azure Speech.
+
+50
+00:01:50,611 --> 00:01:52,785
+Special thanks to the OpenAI team.
+
+51
+00:01:53,463 --> 00:01:55,382
+Find us at finnandre dot no.
+
+52
+00:01:56,336 --> 00:01:58,000
+Get into Codex right away.

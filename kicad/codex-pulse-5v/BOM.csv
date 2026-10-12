@@ -1,0 +1,13 @@
+Reference,Value,Footprint,Notes
+U1,TLC555CP,Package_DIP:DIP-8_W7.62mm,"TLC555CP CMOS, not bipolar substitution"
+J1,5V INPUT,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,Verify purchased component dimensions
+R1,10k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Verify purchased component dimensions
+R2,100k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Verify purchased component dimensions
+R3,1k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Verify purchased component dimensions
+R4,10k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Verify purchased component dimensions
+C1,10uF 16V,Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm,Verify purchased component dimensions
+C2,100nF,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,Verify purchased component dimensions
+C3,10nF,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,Verify purchased component dimensions
+C4,10uF 16V,Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm,Verify purchased component dimensions
+SW1,RESET,Button_Switch_THT:SW_PUSH_6mm,Verify purchased component dimensions
+D1,RED LED,LED_THT:LED_D5.0mm,Verify purchased component dimensions

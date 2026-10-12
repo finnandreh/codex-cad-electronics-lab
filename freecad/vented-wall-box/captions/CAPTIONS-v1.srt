@@ -1,0 +1,67 @@
+1
+00:00:00,050 --> 00:00:01,739
+Still paying for slow design?
+
+2
+00:00:02,416 --> 00:00:04,191
+Here is a better way to work.
+
+3
+00:00:05,028 --> 00:00:07,130
+We gave Codex one brief: a wall
+
+4
+00:00:06,982 --> 00:00:09,885
+mounted control box with lights, switches and
+
+5
+00:00:09,737 --> 00:00:10,637
+ventilation.
+
+6
+00:00:11,474 --> 00:00:12,969
+Watch the shell become hollow.
+
+7
+00:00:13,647 --> 00:00:15,906
+Mounting ears and screw posts appear.
+
+8
+00:00:16,744 --> 00:00:18,736
+Then the removable lid gets its openings
+
+9
+00:00:18,588 --> 00:00:20,083
+and ventilation slots.
+
+10
+00:00:20,921 --> 00:00:23,423
+Change a switch diameter, and the geometry
+
+11
+00:00:23,275 --> 00:00:24,054
+updates.
+
+12
+00:00:24,891 --> 00:00:27,915
+This is real FreeCAD, recorded with OBS.
+
+13
+00:00:28,753 --> 00:00:30,381
+The editable files are checked;
+
+14
+00:00:30,427 --> 00:00:32,396
+hardware fit still comes next.
+
+15
+00:00:33,233 --> 00:00:36,767
+Tell your designer to upgrade their tools.
+
+16
+00:00:36,619 --> 00:00:38,272
+Get into Codex right away.
+
+17
+00:00:39,151 --> 00:00:41,000
+Get into Codex right away.

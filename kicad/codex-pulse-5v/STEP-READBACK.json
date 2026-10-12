@@ -1,0 +1,14 @@
+{
+  "STEP_readback": "PASS",
+  "valid_compound": true,
+  "solids": 13,
+  "bounding_box_mm": [
+    50.0,
+    35.0,
+    15.1
+  ],
+  "board_thickness_from_KiCad_mm": 1.6,
+  "components": "All12componentSTEPmodels exported by nativeKiCadCLI",
+  "holes": "NativeKiCadSTEPexport reported36holes:32physicalcomponentpads plus4mounts",
+  "physical_fit": "Not tested"
+}

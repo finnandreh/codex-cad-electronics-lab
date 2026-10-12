@@ -1,0 +1,12 @@
+*.FCBak
+*.FCStd1
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+private/
+receipts/
+*.wav
+*.mkv
+__pycache__/
+*.pyc

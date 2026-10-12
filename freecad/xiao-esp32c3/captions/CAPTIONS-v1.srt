@@ -1,0 +1,159 @@
+1
+00:00:00,050 --> 00:00:02,174
+From a manufacturer reference to an editable
+
+2
+00:00:02,174 --> 00:00:05,283
+Seeed XIAO ESP32C3 case.
+
+3
+00:00:05,960 --> 00:00:09,045
+Designed with OpenAI Codex in real FreeCAD,
+
+4
+00:00:09,128 --> 00:00:10,586
+recorded with OBS.
+
+5
+00:00:11,264 --> 00:00:13,996
+This time, the board stays visible inside.
+
+6
+00:00:14,924 --> 00:00:17,205
+Use Seeed documentation and the official board
+
+7
+00:00:17,205 --> 00:00:18,458
+layout DXF.
+
+8
+00:00:19,135 --> 00:00:21,501
+The nominal board is twenty-one by seventeen
+
+9
+00:00:21,501 --> 00:00:22,826
+point eight millimetres.
+
+10
+00:00:23,504 --> 00:00:25,810
+PCB thickness is a provisional assumption in
+
+11
+00:00:25,810 --> 00:00:26,795
+this concept.
+
+12
+00:00:27,722 --> 00:00:30,261
+A compact rounded shell surrounds the board.
+
+13
+00:00:30,938 --> 00:00:32,577
+An opening at the far end routes
+
+14
+00:00:32,577 --> 00:00:34,181
+the external antenna cable.
+
+15
+00:00:34,858 --> 00:00:37,870
+Antenna placement and radio performance require testing.
+
+16
+00:00:38,798 --> 00:00:41,310
+Small cradle rests support the PCB without
+
+17
+00:00:41,310 --> 00:00:43,800
+treating electrical pads as mounting holes.
+
+18
+00:00:44,477 --> 00:00:46,967
+Separate corner posts take the lid screws.
+
+19
+00:00:47,895 --> 00:00:50,018
+The front opening serves USB C.
+
+20
+00:00:50,018 --> 00:00:52,448
+Header slots expose both connection rows.
+
+21
+00:00:53,125 --> 00:00:55,662
+A larger top opening keeps boot, reset
+
+22
+00:00:55,662 --> 00:00:57,521
+and the antenna connection reachable.
+
+23
+00:00:58,448 --> 00:00:59,832
+Lift the lid and see the board
+
+24
+00:00:59,832 --> 00:01:00,659
+inside.
+
+25
+00:01:01,336 --> 00:01:03,181
+The official Seeed photo is a flat
+
+26
+00:01:03,181 --> 00:01:05,962
+layout reference, not measured component geometry.
+
+27
+00:01:06,640 --> 00:01:08,460
+Check the real antenna lead and bottom
+
+28
+00:01:08,460 --> 00:01:09,834
+pads before printing.
+
+29
+00:01:10,761 --> 00:01:14,026
+Valid solids, intersection checks, STEP readback and
+
+30
+00:01:14,026 --> 00:01:16,661
+closed print meshes check the digital files.
+
+31
+00:01:17,339 --> 00:01:18,967
+Print a prototype next.
+
+32
+00:01:19,645 --> 00:01:23,225
+Test real components, cables, screws, retention and
+
+33
+00:01:23,225 --> 00:01:25,120
+heat before relying on the case.
+
+34
+00:01:26,048 --> 00:01:27,530
+Upgrade your tools.
+
+35
+00:01:28,208 --> 00:01:30,030
+Get into Codex right away.
+
+36
+00:01:30,708 --> 00:01:35,016
+Designed with OpenAI Codex, using FreeCAD, OBS
+
+37
+00:01:35,016 --> 00:01:36,426
+and paid Azure Speech.
+
+38
+00:01:37,103 --> 00:01:39,278
+Special thanks to the OpenAI team.
+
+39
+00:01:39,955 --> 00:01:41,644
+Visit finnandre dot no.
+
+40
+00:01:42,604 --> 00:01:44,000
+Get into Codex right away.

@@ -1,0 +1,75 @@
+1
+00:00:00,050 --> 00:00:02,334
+Still waiting for a simple product design?
+
+2
+00:00:03,011 --> 00:00:03,887
+Watch this.
+
+3
+00:00:04,725 --> 00:00:07,300
+We start with Arduino's official Uno R4
+
+4
+00:00:07,152 --> 00:00:09,278
+WiFi model and mechanical drawing.
+
+5
+00:00:10,115 --> 00:00:12,654
+Codex builds a rounded case, hollows the
+
+6
+00:00:12,506 --> 00:00:14,729
+shell, and places the board supports.
+
+7
+00:00:15,566 --> 00:00:19,064
+USB-C, power and Qwiic get cable access.
+
+8
+00:00:19,741 --> 00:00:21,200
+The headers stay reachable.
+
+9
+00:00:22,037 --> 00:00:24,054
+The lid leaves the LED matrix visible,
+
+10
+00:00:24,076 --> 00:00:26,056
+with reset access and ventilation.
+
+11
+00:00:26,894 --> 00:00:28,255
+Lift the lid and board.
+
+12
+00:00:28,933 --> 00:00:31,787
+Inspect the parts in real FreeCAD, recorded
+
+13
+00:00:31,639 --> 00:00:32,636
+with OBS.
+
+14
+00:00:33,474 --> 00:00:36,486
+Editable CAD, STEP and print meshes.
+
+15
+00:00:37,163 --> 00:00:38,524
+The geometry is checked;
+
+16
+00:00:38,607 --> 00:00:40,891
+real hardware and print fit come next.
+
+17
+00:00:41,728 --> 00:00:43,211
+Upgrade your tools.
+
+18
+00:00:43,888 --> 00:00:45,796
+Get into Codex right away.
+
+19
+00:00:46,669 --> 00:00:48,000
+Get into Codex right away.

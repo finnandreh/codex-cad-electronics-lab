@@ -1,0 +1,11 @@
+Codex Pulse: 5 V LED timer
+Recorded KiCad version: 7.0.6
+Recorded check time: 2026-10-12T03:08:20+02:00
+
+Found 0 DRC violations
+Found 0 unconnected pads
+Found 0 footprint errors
+
+This public copy removes a workstation path from the original report header.
+See VERIFICATION.json for the bounded test record. This is an unbuilt design.
+

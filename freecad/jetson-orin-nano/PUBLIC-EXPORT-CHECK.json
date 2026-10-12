@@ -1,0 +1,12 @@
+{
+  "native_reopened": true,
+  "vendor_board_and_cooler_excluded": true,
+  "removed_reference_objects": [
+    "BoardReference"
+  ],
+  "editable_parametric_history_preserved": true,
+  "case_volumes_unchanged": true,
+  "case_solids": 2,
+  "source_geometry_revision": "v2 / visual revision v3",
+  "physical_fit": "not tested"
+}

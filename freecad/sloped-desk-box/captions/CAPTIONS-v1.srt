@@ -1,0 +1,83 @@
+1
+00:00:00,050 --> 00:00:01,994
+Are you overpaying for slow design?
+
+2
+00:00:02,671 --> 00:00:04,943
+Your designer needs to upgrade, or be
+
+3
+00:00:04,795 --> 00:00:05,586
+replaced.
+
+4
+00:00:06,424 --> 00:00:07,312
+One brief.
+
+5
+00:00:07,989 --> 00:00:10,576
+A sloped desktop control box, with room
+
+6
+00:00:10,428 --> 00:00:11,790
+for lights and switches.
+
+7
+00:00:12,627 --> 00:00:14,826
+Codex builds the angled shell in FreeCAD,
+
+8
+00:00:14,678 --> 00:00:17,363
+hollows it, and adds screw posts.
+
+9
+00:00:18,200 --> 00:00:20,678
+The removable control panel follows the slope.
+
+10
+00:00:21,355 --> 00:00:23,530
+The openings line up with the controls.
+
+11
+00:00:24,367 --> 00:00:25,996
+Need a different switch size?
+
+12
+00:00:26,673 --> 00:00:28,047
+Change the dimension.
+
+13
+00:00:28,724 --> 00:00:29,928
+The holes update.
+
+14
+00:00:30,765 --> 00:00:32,660
+Lift the panel and inspect the separate
+
+15
+00:00:32,513 --> 00:00:33,255
+parts.
+
+16
+00:00:34,093 --> 00:00:36,680
+Actual design work, recorded with OBS.
+
+17
+00:00:36,617 --> 00:00:39,022
+Editable files, with physical fit still to
+
+18
+00:00:38,874 --> 00:00:39,459
+check.
+
+19
+00:00:40,296 --> 00:00:41,803
+The world moves forward.
+
+20
+00:00:42,481 --> 00:00:44,388
+Get into Codex right away.
+
+21
+00:00:45,262 --> 00:00:47,000
+Get into Codex right away.

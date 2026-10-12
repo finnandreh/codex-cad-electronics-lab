@@ -1,0 +1,62 @@
+1
+00:00:00,050 --> 00:00:01,800
+Prompt to 3D design?
+
+2
+00:00:02,230 --> 00:00:04,000
+Let us make it real.
+
+3
+00:00:04,450 --> 00:00:08,200
+Codex controls FreeCAD
+to build this rounded box.
+
+4
+00:00:08,530 --> 00:00:11,600
+It hollows the shell
+and adds four screw posts.
+
+5
+00:00:11,780 --> 00:00:15,700
+The removable lid gets three holes
+for lights and two for switches.
+
+6
+00:00:15,920 --> 00:00:18,450
+Change 16 millimetres to 19.
+
+7
+00:00:18,850 --> 00:00:20,250
+The holes update.
+
+8
+00:00:20,730 --> 00:00:23,150
+Then restore the original size.
+
+9
+00:00:23,600 --> 00:00:26,600
+Lift the lid to inspect
+the separate parts.
+
+10
+00:00:26,820 --> 00:00:29,450
+Add illustrative controls
+and check the geometry.
+
+11
+00:00:29,530 --> 00:00:33,150
+The editable model is exported
+for the next step.
+
+12
+00:00:33,500 --> 00:00:36,650
+Actual CAD work,
+captured on screen.
+
+13
+00:00:37,050 --> 00:00:39,350
+Hardware fit still needs checking.
+
+14
+00:00:39,500 --> 00:00:42,000
+One design brief. Editable 3D.

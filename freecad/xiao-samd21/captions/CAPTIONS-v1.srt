@@ -1,0 +1,163 @@
+1
+00:00:00,050 --> 00:00:02,150
+From a manufacturer reference to an editable
+
+2
+00:00:02,150 --> 00:00:04,834
+Seeed XIAO SAMD21 v4 case.
+
+3
+00:00:05,511 --> 00:00:08,596
+Designed with OpenAI Codex in real FreeCAD,
+
+4
+00:00:08,679 --> 00:00:10,137
+recorded with OBS.
+
+5
+00:00:10,815 --> 00:00:13,547
+This time, the board stays visible inside.
+
+6
+00:00:14,475 --> 00:00:17,048
+This is Seeed official SAMD twenty-one version
+
+7
+00:00:17,048 --> 00:00:19,256
+four STEP, shown here as the manufacturer
+
+8
+00:00:19,256 --> 00:00:20,266
+model reference.
+
+9
+00:00:20,943 --> 00:00:23,455
+Its PCB measures twenty-one point three by
+
+10
+00:00:23,455 --> 00:00:26,174
+seventeen point nine millimetres, slightly larger than
+
+11
+00:00:26,174 --> 00:00:27,851
+nominal product dimensions.
+
+12
+00:00:28,778 --> 00:00:30,744
+Use the exact model revision to size
+
+13
+00:00:30,744 --> 00:00:32,300
+an editable rounded shell.
+
+14
+00:00:32,977 --> 00:00:34,217
+The version matters.
+
+15
+00:00:34,895 --> 00:00:36,849
+A nominal size alone does not prove
+
+16
+00:00:36,849 --> 00:00:38,683
+that every board variant will fit.
+
+17
+00:00:39,611 --> 00:00:42,353
+Provisional cradle rests support the PCB, while
+
+18
+00:00:42,353 --> 00:00:44,431
+separate posts take the lid screws.
+
+19
+00:00:45,108 --> 00:00:47,548
+The electrical connection holes remain available for
+
+20
+00:00:47,548 --> 00:00:48,193
+headers.
+
+21
+00:00:49,120 --> 00:00:51,584
+Provide USB C cable access and openings
+
+22
+00:00:51,584 --> 00:00:53,674
+over the connections and reset pads.
+
+23
+00:00:54,351 --> 00:00:56,343
+This board uses reset pads;
+
+24
+00:00:56,366 --> 00:00:58,285
+we do not invent a reset button.
+
+25
+00:00:59,213 --> 00:01:00,815
+Raise the lid while the full official
+
+26
+00:01:00,815 --> 00:01:02,589
+STEP stays seated in the case.
+
+27
+00:01:03,266 --> 00:01:05,732
+Now the component model is visible inside.
+
+28
+00:01:06,409 --> 00:01:09,079
+It helps inspect layout, but cable, solder
+
+29
+00:01:09,079 --> 00:01:11,763
+and printing tolerances still need real hardware.
+
+30
+00:01:12,691 --> 00:01:15,955
+Valid solids, intersection checks, STEP readback and
+
+31
+00:01:15,955 --> 00:01:18,591
+closed print meshes check the digital files.
+
+32
+00:01:19,268 --> 00:01:20,897
+Print a prototype next.
+
+33
+00:01:21,574 --> 00:01:25,154
+Test real components, cables, screws, retention and
+
+34
+00:01:25,154 --> 00:01:27,050
+heat before relying on the case.
+
+35
+00:01:27,977 --> 00:01:29,460
+Upgrade your tools.
+
+36
+00:01:30,137 --> 00:01:31,960
+Get into Codex right away.
+
+37
+00:01:32,637 --> 00:01:36,946
+Designed with OpenAI Codex, using FreeCAD, OBS
+
+38
+00:01:36,946 --> 00:01:38,356
+and paid Azure Speech.
+
+39
+00:01:39,033 --> 00:01:41,208
+Special thanks to the OpenAI team.
+
+40
+00:01:41,885 --> 00:01:43,574
+Visit finnandre dot no.
+
+41
+00:01:44,533 --> 00:01:46,000
+Get into Codex right away.

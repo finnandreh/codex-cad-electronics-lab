@@ -1,0 +1,22 @@
+{
+  "release_tag": "evidence-2026-10-12",
+  "licence": "CC-BY-4.0",
+  "generated_at": "2026-10-12",
+  "assets": [
+    {"file":"Original-Control-Box-EN-v2.mp4","sha256":"f34179b718d4c5fdad716d8d69f8fd6b7d8c61a753a0c22f5607e47f3710590b","youtube":"https://youtube.com/shorts/aSlC_pHwm3w","status":"public_verified_2026-10-11"},
+    {"file":"Vented-Wall-Box-EN-v3.mp4","sha256":"2347d44e41726da8b5ec7296f8b6edcdc1628ff74717ba74c982dd105a8905d3","youtube":"https://youtube.com/shorts/YksfvrERqcE","status":"scheduled_verified","scheduled_at":"2026-10-12T06:00:00+02:00"},
+    {"file":"Sloped-Desk-Box-EN-v3.mp4","sha256":"7b9b91e89e827e82c3523444ebecc5ef3b6269c234c64e6e3fc7be0f3afe8a21","youtube":"https://youtube.com/shorts/CappjeAqJ10","status":"scheduled_verified","scheduled_at":"2026-10-12T07:00:00+02:00"},
+    {"file":"Uno-R4-WiFi-Case-EN-v1.mp4","sha256":"62cc9740c879d85af29548e28505d7ea59cd92e7141bb83b096065bdb6011c46","youtube":"https://youtube.com/shorts/f9JGq1Lt9iA","status":"scheduled_verified","scheduled_at":"2026-10-12T08:00:00+02:00"},
+    {"file":"Nano-ESP32-Case-EN-v2.mp4","sha256":"9c7fcef31eb43064e37b2fbd8580cf9073a6310051a26e22febbe32978e9461a","youtube":"https://youtube.com/shorts/Nnz0JP0rjxY","status":"scheduled_verified","scheduled_at":"2026-10-12T09:00:00+02:00"},
+    {"file":"Nano-Every-Case-EN-v1.mp4","sha256":"1429a4e093e14f34fdfdd3212d37cb961a42b93fe6485e7cae1d019a5b9aacce","youtube":"https://youtube.com/shorts/B6qXtXM9weI","status":"scheduled_verified","scheduled_at":"2026-10-12T10:00:00+02:00"},
+    {"file":"Pico-2-W-Case-EN-v2.mp4","sha256":"1c3be4145ed88cf43dcb138648a046c94b8157b5cab4e304ab69add98a3ce0bd","youtube":"https://youtube.com/shorts/0EeUTEl4Bvc","status":"scheduled_verified","scheduled_at":"2026-10-12T11:00:00+02:00"},
+    {"file":"Nano-33-BLE-Sense-Rev2-Case-EN-v1.mp4","sha256":"61c09b377dbbf0f6245c16a8923e6d25a0f486fa98a732084256560609331fbc","youtube":"https://youtube.com/shorts/lx_XKFIRO3s","status":"scheduled_verified","scheduled_at":"2026-10-12T12:00:00+02:00"},
+    {"file":"Nano-Matter-Case-EN-v1.mp4","sha256":"e72f38b54509729178b4e5ea83fff4be8cf45bbcd2464d74e2e95f94e21f18f5","youtube":"https://youtube.com/shorts/HLhrCJWROGE","status":"scheduled_verified","scheduled_at":"2026-10-12T13:00:00+02:00"},
+    {"file":"ESP32-DevKitC-V4-Case-EN-v1.mp4","sha256":"1ebcafaa02cddd078f4dcef8cb874ac5f6fba87c0fc8592bbb011c15d9700fb3","youtube":"https://youtube.com/shorts/zuW0kFK4ihY","status":"scheduled_verified","scheduled_at":"2026-10-12T14:00:00+02:00"},
+    {"file":"Teensy-4-1-Case-EN-v1.mp4","sha256":"c94b1fa21be76a2df1e21c33228c9d515cf5ba6763378496c6fd866499a1e233","youtube":"https://youtube.com/shorts/UJIxXmdg7ow","status":"scheduled_verified","scheduled_at":"2026-10-12T15:00:00+02:00"},
+    {"file":"XIAO-ESP32C3-Case-EN-v1.mp4","sha256":"712ffb9c84a3c35072d0a5197374247de61d95f81ae0e3734f30c2eeed2bc4e2","youtube":"https://youtube.com/shorts/zEbMOSpfGsM","status":"scheduled_verified","scheduled_at":"2026-10-12T16:00:00+02:00"},
+    {"file":"XIAO-SAMD21-Case-EN-v1.mp4","sha256":"ba8ee027510c7fe8313f553cb3d794f6fe2bd6ad86ce6e5328a4c8d196db6c3e","youtube":"https://youtube.com/shorts/16ucF9Jwm48","status":"scheduled_verified","scheduled_at":"2026-10-12T17:00:00+02:00"},
+    {"file":"Nano-33-IoT-Case-EN-v1.mp4","sha256":"85827cca5f5e9eab79f7c6a25d321a8a161c5065d70a5097e74a8bbe6e97199e","youtube":"https://youtube.com/shorts/3WT94s_HcS0","status":"scheduled_verified","scheduled_at":"2026-10-12T18:00:00+02:00"},
+    {"file":"Jetson-Orin-Nano-Case-EN-v1.mp4","sha256":"09cb2320ab2893f1f77b93eb17d0abfa7d66a6060836bda323f1d14e9099a866","youtube":null,"status":"github_release_only_no_social_slot"}
+  ]
+}

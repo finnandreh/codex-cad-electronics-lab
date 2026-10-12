@@ -1,0 +1,171 @@
+1
+00:00:00,050 --> 00:00:02,259
+From a manufacturer reference to an editable
+
+2
+00:00:02,259 --> 00:00:05,222
+ESP32 DevKitC V4 case.
+
+3
+00:00:05,900 --> 00:00:08,984
+Designed with OpenAI Codex in real FreeCAD,
+
+4
+00:00:09,067 --> 00:00:10,526
+recorded with OBS.
+
+5
+00:00:11,203 --> 00:00:13,936
+This time, the board stays visible inside.
+
+6
+00:00:14,863 --> 00:00:17,023
+Espressif shows a forty-eight point two six
+
+7
+00:00:17,023 --> 00:00:19,890
+by twenty-seven point nine four millimetre PCB.
+
+8
+00:00:20,567 --> 00:00:22,970
+The antenna extends another six point zero
+
+9
+00:00:22,970 --> 00:00:24,004
+four millimetres.
+
+10
+00:00:24,681 --> 00:00:26,902
+Those are different dimensions, so we keep
+
+11
+00:00:26,902 --> 00:00:27,499
+both.
+
+12
+00:00:28,426 --> 00:00:30,586
+A shorter rounded shell leaves the wireless
+
+13
+00:00:30,586 --> 00:00:32,191
+end outside the enclosure.
+
+14
+00:00:32,868 --> 00:00:34,506
+Walls and floor are two point four
+
+15
+00:00:34,506 --> 00:00:35,577
+millimetres thick.
+
+16
+00:00:36,254 --> 00:00:39,047
+Wireless performance still requires a real test.
+
+17
+00:00:39,975 --> 00:00:42,817
+Four provisional cradle rests support the PCB.
+
+18
+00:00:43,494 --> 00:00:45,982
+Header pin holes are electrical connections, not
+
+19
+00:00:45,982 --> 00:00:47,004
+screw mounts.
+
+20
+00:00:47,681 --> 00:00:49,843
+Separate posts hold the removable lid.
+
+21
+00:00:50,771 --> 00:00:53,526
+Keep the micro USB connector, enable and
+
+22
+00:00:53,526 --> 00:00:55,045
+boot controls reachable.
+
+23
+00:00:55,722 --> 00:00:57,470
+Long lid openings leave the header rows
+
+24
+00:00:57,470 --> 00:00:58,249
+accessible.
+
+25
+00:00:58,926 --> 00:01:01,574
+Cable dimensions remain allowances to test.
+
+26
+00:01:02,501 --> 00:01:03,921
+Lift the lid and see the board
+
+27
+00:01:03,921 --> 00:01:05,113
+seated inside.
+
+28
+00:01:05,790 --> 00:01:08,011
+This is Espressif board photography placed as
+
+29
+00:01:08,011 --> 00:01:09,178
+a flat reference.
+
+30
+00:01:09,856 --> 00:01:11,531
+It shows the layout, but does not
+
+31
+00:01:11,531 --> 00:01:13,110
+validate component heights.
+
+32
+00:01:14,038 --> 00:01:17,302
+Valid solids, intersection checks, STEP readback and
+
+33
+00:01:17,302 --> 00:01:19,938
+closed print meshes check the digital files.
+
+34
+00:01:20,616 --> 00:01:22,244
+Print a prototype next.
+
+35
+00:01:22,921 --> 00:01:26,501
+Test real components, cables, screws, retention and
+
+36
+00:01:26,501 --> 00:01:28,397
+heat before relying on the case.
+
+37
+00:01:29,324 --> 00:01:30,807
+Upgrade your tools.
+
+38
+00:01:31,484 --> 00:01:33,307
+Get into Codex right away.
+
+39
+00:01:33,984 --> 00:01:38,293
+Designed with OpenAI Codex, using FreeCAD, OBS
+
+40
+00:01:38,293 --> 00:01:39,703
+and paid Azure Speech.
+
+41
+00:01:40,380 --> 00:01:42,555
+Special thanks to the OpenAI team.
+
+42
+00:01:43,232 --> 00:01:44,921
+Visit finnandre dot no.
+
+43
+00:01:45,882 --> 00:01:47,000
+Get into Codex right away.

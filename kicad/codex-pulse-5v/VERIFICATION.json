@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-12T03:08:20+02:00",
+  "native_version": "7.0.6",
+  "native_schematic_export": "PASS",
+  "schematic_to_design_pin_net_comparison": "PASS:30electricalpins/eightnets",
+  "PCB_to_schematic_pin_net_comparison": "PASS",
+  "pcb_reopened": true,
+  "drc_violations": 0,
+  "unconnected_pads": 0,
+  "footprint_errors": 0,
+  "copper_layers": 2,
+  "board_mm": [
+    50,
+    35
+  ],
+  "minimum_requested_clearance_mm": 0.25,
+  "track_width_mm": 0.3,
+  "via_diameter_mm": 0.6,
+  "via_drill_mm": 0.3,
+  "components": 12,
+  "mounting_holes": 4,
+  "physical_test": "Not performed",
+  "native_ERC": "Not run: installed KiCad7 CLI provides schematic export but no ERC command; netlist and pin functions inspected separately",
+  "nominal_frequency_Hz": 0.6857142857142856,
+  "nominal_duty_percent": 52.38095238095239,
+  "manufacturing": "Prototype files only; no fabrication order or publication performed",
+  "board_sha256": "93a27efe6e70ba27dd8dfeb45e36e3d76996dc2099521dc9c8b7285bc84889ee",
+  "packaged_at": "2026-10-12T03:17:49+02:00",
+  "STEP_readback": "PASS:13validsolids",
+  "visual_review": "PASS: current schematic, two-layer copper preview and component STEP preview inspected"
+}

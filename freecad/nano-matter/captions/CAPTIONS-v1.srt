@@ -1,0 +1,199 @@
+1
+00:00:00,050 --> 00:00:02,528
+Show the electronics, not just the box.
+
+2
+00:00:03,205 --> 00:00:05,548
+This Arduino Nano Matter case is designed
+
+3
+00:00:05,548 --> 00:00:08,606
+with OpenAI Codex in real FreeCAD, recorded
+
+4
+00:00:08,606 --> 00:00:09,640
+with OBS.
+
+5
+00:00:10,317 --> 00:00:12,332
+The official three D board model stays
+
+6
+00:00:12,332 --> 00:00:13,450
+seated inside.
+
+7
+00:00:14,378 --> 00:00:16,661
+First, reconcile the sources.
+
+8
+00:00:17,339 --> 00:00:19,390
+The mechanical drawing and official STEP model
+
+9
+00:00:19,390 --> 00:00:21,332
+agree on a forty-three point one eight
+
+10
+00:00:21,332 --> 00:00:23,919
+by seventeen point seven eight millimetre board.
+
+11
+00:00:24,596 --> 00:00:26,878
+We use those mechanical dimensions rather than
+
+12
+00:00:26,878 --> 00:00:28,579
+the rounded overview description.
+
+13
+00:00:29,506 --> 00:00:31,412
+A shorter rounded shell leaves the last
+
+14
+00:00:31,412 --> 00:00:33,111
+eight millimetres of the board outside the
+
+15
+00:00:33,111 --> 00:00:35,079
+case, near the antenna end.
+
+16
+00:00:35,756 --> 00:00:37,395
+Walls and floor are two point four
+
+17
+00:00:37,395 --> 00:00:38,465
+millimetres thick.
+
+18
+00:00:39,142 --> 00:00:41,742
+Radio performance still needs real testing.
+
+19
+00:00:42,669 --> 00:00:44,659
+Two front mounting supports and two rear
+
+20
+00:00:44,659 --> 00:00:46,506
+cradle rests support the board.
+
+21
+00:00:47,184 --> 00:00:49,419
+Separate posts take the lid screws.
+
+22
+00:00:50,096 --> 00:00:51,822
+These are prototype features;
+
+23
+00:00:51,904 --> 00:00:53,943
+retention and screw choice must be checked
+
+24
+00:00:53,943 --> 00:00:55,171
+with actual hardware.
+
+25
+00:00:56,099 --> 00:00:58,514
+The front opening provides USB C cable
+
+26
+00:00:58,514 --> 00:00:59,220
+access.
+
+27
+00:00:59,897 --> 00:01:02,033
+Header slots and a central control opening
+
+28
+00:01:02,033 --> 00:01:04,475
+keep the connections and both buttons reachable.
+
+29
+00:01:05,152 --> 00:01:07,288
+The official component model helps us inspect
+
+30
+00:01:07,288 --> 00:01:08,237
+the arrangement.
+
+31
+00:01:09,164 --> 00:01:10,839
+Raise the lid while the board stays
+
+32
+00:01:10,839 --> 00:01:12,067
+seated in its case.
+
+33
+00:01:12,744 --> 00:01:14,237
+Now you can see the connector and
+
+34
+00:01:14,237 --> 00:01:15,695
+component layout clearly.
+
+35
+00:01:16,373 --> 00:01:18,169
+The board reference stays in the editable
+
+36
+00:01:18,169 --> 00:01:21,069
+document, and is excluded from enclosure manufacturing
+
+37
+00:01:21,069 --> 00:01:21,873
+exports.
+
+38
+00:01:22,800 --> 00:01:26,101
+We check valid solids, intersections, STEP readback
+
+39
+00:01:26,101 --> 00:01:27,669
+and closed print meshes.
+
+40
+00:01:28,346 --> 00:01:30,424
+A physical print remains the next step,
+
+41
+00:01:30,446 --> 00:01:33,298
+including cable fit, board retention, heat and
+
+42
+00:01:33,298 --> 00:01:34,659
+wireless performance.
+
+43
+00:01:35,586 --> 00:01:36,899
+Better references.
+
+44
+00:01:37,577 --> 00:01:38,623
+Better tools.
+
+45
+00:01:39,300 --> 00:01:41,123
+Get into Codex right away.
+
+46
+00:01:41,800 --> 00:01:46,108
+Designed with OpenAI Codex, using FreeCAD, OBS
+
+47
+00:01:46,108 --> 00:01:47,518
+and paid Azure Speech.
+
+48
+00:01:48,196 --> 00:01:50,370
+Special thanks to the OpenAI team.
+
+49
+00:01:51,048 --> 00:01:52,967
+Find us at finnandre dot no.
+
+50
+00:01:53,919 --> 00:01:56,000
+Get into Codex right away.

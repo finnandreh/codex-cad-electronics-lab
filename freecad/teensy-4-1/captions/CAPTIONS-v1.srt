@@ -1,0 +1,171 @@
+1
+00:00:00,050 --> 00:00:02,234
+From a manufacturer reference to an editable
+
+2
+00:00:02,234 --> 00:00:03,996
+Teensy 4.1 case.
+
+3
+00:00:04,674 --> 00:00:07,759
+Designed with OpenAI Codex in real FreeCAD,
+
+4
+00:00:07,841 --> 00:00:09,300
+recorded with OBS.
+
+5
+00:00:09,977 --> 00:00:12,710
+This time, the board stays visible inside.
+
+6
+00:00:13,637 --> 00:00:15,980
+The PJRC drawing gives sixty point nine
+
+7
+00:00:15,980 --> 00:00:18,555
+six by seventeen point seven eight millimetres,
+
+8
+00:00:18,601 --> 00:00:20,470
+with a one point five seven millimetre
+
+9
+00:00:20,470 --> 00:00:21,358
+PCB.
+
+10
+00:00:22,035 --> 00:00:23,916
+The listed width tolerance matters when we
+
+11
+00:00:23,916 --> 00:00:24,780
+test fit.
+
+12
+00:00:25,708 --> 00:00:27,577
+Build a longer rounded shell with two
+
+13
+00:00:27,577 --> 00:00:29,569
+point four millimetre walls and floor.
+
+14
+00:00:30,247 --> 00:00:32,601
+Dimensions stay editable, ready for a measured
+
+15
+00:00:32,601 --> 00:00:34,606
+board and your printing tolerances.
+
+16
+00:00:35,533 --> 00:00:38,035
+Four provisional rests cradle the PCB.
+
+17
+00:00:38,713 --> 00:00:40,679
+We keep the electrical header holes free
+
+18
+00:00:40,679 --> 00:00:42,341
+and put the lid screws on separate
+
+19
+00:00:42,341 --> 00:00:43,060
+posts.
+
+20
+00:00:43,987 --> 00:00:46,586
+Micro USB needs access at the front.
+
+21
+00:00:47,264 --> 00:00:49,448
+The micro SD card slot needs access
+
+22
+00:00:49,448 --> 00:00:50,615
+at the opposite end.
+
+23
+00:00:51,293 --> 00:00:53,259
+A top window keeps the program button
+
+24
+00:00:53,259 --> 00:00:53,965
+reachable.
+
+25
+00:00:54,892 --> 00:00:56,373
+Raise the lid and keep the board
+
+26
+00:00:56,373 --> 00:00:57,043
+seated.
+
+27
+00:00:57,720 --> 00:01:00,256
+The official PJRC photo makes the component
+
+28
+00:01:00,256 --> 00:01:01,169
+layout clear.
+
+29
+00:01:01,846 --> 00:01:03,836
+It is a flat visual reference, so
+
+30
+00:01:03,836 --> 00:01:06,106
+actual component and pin clearance still need
+
+31
+00:01:06,106 --> 00:01:06,715
+checking.
+
+32
+00:01:07,642 --> 00:01:10,907
+Valid solids, intersection checks, STEP readback and
+
+33
+00:01:10,907 --> 00:01:13,543
+closed print meshes check the digital files.
+
+34
+00:01:14,220 --> 00:01:15,848
+Print a prototype next.
+
+35
+00:01:16,526 --> 00:01:20,106
+Test real components, cables, screws, retention and
+
+36
+00:01:20,106 --> 00:01:22,001
+heat before relying on the case.
+
+37
+00:01:22,929 --> 00:01:24,411
+Upgrade your tools.
+
+38
+00:01:25,089 --> 00:01:26,911
+Get into Codex right away.
+
+39
+00:01:27,589 --> 00:01:31,897
+Designed with OpenAI Codex, using FreeCAD, OBS
+
+40
+00:01:31,897 --> 00:01:33,307
+and paid Azure Speech.
+
+41
+00:01:33,984 --> 00:01:36,159
+Special thanks to the OpenAI team.
+
+42
+00:01:36,836 --> 00:01:38,526
+Visit finnandre dot no.
+
+43
+00:01:39,486 --> 00:01:41,000
+Get into Codex right away.

@@ -1,0 +1,195 @@
+1
+00:00:00,050 --> 00:00:02,018
+Your circuit deserves a case that fits
+
+2
+00:00:01,870 --> 00:00:02,686
+its board.
+
+3
+00:00:03,363 --> 00:00:06,132
+This Arduino Nano Every enclosure is designed
+
+4
+00:00:05,984 --> 00:00:09,482
+with OpenAI Codex, in real FreeCAD, recorded
+
+5
+00:00:09,334 --> 00:00:10,344
+with OBS.
+
+6
+00:00:11,271 --> 00:00:13,579
+Start with Arduino’s official drawing.
+
+7
+00:00:14,256 --> 00:00:16,504
+The board measures forty-three point one eight
+
+8
+00:00:16,356 --> 00:00:18,737
+by seventeen point seven eight millimetres.
+
+9
+00:00:19,414 --> 00:00:21,407
+Four corner holes define a forty point
+
+10
+00:00:21,259 --> 00:00:23,203
+six four by fifteen point two four
+
+11
+00:00:23,055 --> 00:00:24,076
+mounting pattern.
+
+12
+00:00:25,004 --> 00:00:27,251
+Rounded corners and a hollow cavity form
+
+13
+00:00:27,103 --> 00:00:27,785
+the shell.
+
+14
+00:00:28,463 --> 00:00:30,140
+The wall and floor are two point
+
+15
+00:00:29,992 --> 00:00:31,159
+four millimetres thick.
+
+16
+00:00:31,836 --> 00:00:34,715
+Dimensions remain editable in the native FreeCAD
+
+17
+00:00:34,567 --> 00:00:35,443
+spreadsheet.
+
+18
+00:00:36,370 --> 00:00:38,581
+Four supports follow the corner holes, while
+
+19
+00:00:38,434 --> 00:00:40,669
+separate posts fasten the removable lid.
+
+20
+00:00:41,346 --> 00:00:43,387
+The green reference is a simplified board
+
+21
+00:00:43,239 --> 00:00:43,958
+envelope.
+
+22
+00:00:44,635 --> 00:00:47,186
+Component and cable allowances still need checking
+
+23
+00:00:47,038 --> 00:00:48,375
+against real hardware.
+
+24
+00:00:49,302 --> 00:00:51,744
+The end opening allows a micro USB
+
+25
+00:00:51,596 --> 00:00:52,254
+cable.
+
+26
+00:00:52,931 --> 00:00:55,348
+Long slots expose both header rows, a
+
+27
+00:00:55,200 --> 00:00:57,812
+central window gives control access, and the
+
+28
+00:00:57,664 --> 00:00:59,693
+lid includes ventilation slots.
+
+29
+00:01:00,370 --> 00:01:02,472
+These are design allowances for a first
+
+30
+00:01:02,324 --> 00:01:03,225
+prototype.
+
+31
+00:01:04,152 --> 00:01:05,962
+Lift the lid and inspect the separate
+
+32
+00:01:05,815 --> 00:01:06,557
+parts.
+
+33
+00:01:07,234 --> 00:01:08,851
+The board reference stays out of the
+
+34
+00:01:08,703 --> 00:01:10,331
+manufacturing files.
+
+35
+00:01:11,009 --> 00:01:12,674
+The base and lid each export as
+
+36
+00:01:12,526 --> 00:01:13,657
+a printable mesh.
+
+37
+00:01:14,584 --> 00:01:17,487
+Native CAD, STEP and closed meshes are
+
+38
+00:01:17,339 --> 00:01:18,021
+checked.
+
+39
+00:01:18,698 --> 00:01:21,625
+A real print, the screws, connectors and
+
+40
+00:01:21,477 --> 00:01:23,154
+temperature still need testing.
+
+41
+00:01:23,832 --> 00:01:26,322
+Useful progress, with the next checks made
+
+42
+00:01:26,174 --> 00:01:26,746
+clear.
+
+43
+00:01:27,674 --> 00:01:29,569
+Upgrade your design workflow.
+
+44
+00:01:30,247 --> 00:01:32,069
+Get into Codex right away.
+
+45
+00:01:32,747 --> 00:01:36,377
+Designed with OpenAI Codex, using FreeCAD and
+
+46
+00:01:36,230 --> 00:01:38,501
+OBS, with paid Azure narration.
+
+47
+00:01:39,179 --> 00:01:41,353
+Special thanks to the OpenAI team.
+
+48
+00:01:42,031 --> 00:01:43,950
+Find us at finnandre dot no.
+
+49
+00:01:44,910 --> 00:01:47,000
+Get into Codex right away.

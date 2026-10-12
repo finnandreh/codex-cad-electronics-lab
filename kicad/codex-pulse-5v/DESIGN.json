@@ -1,0 +1,293 @@
+{
+  "name": "Codex-Pulse-5V",
+  "schematic_uuid": "0af432b4-f06c-4b7f-94dc-ffd37ec764ad",
+  "components": [
+    {
+      "ref": "U1",
+      "value": "TLC555CP",
+      "lib": "Timer",
+      "sym": "TLC555xP",
+      "footprint": "Package_DIP:DIP-8_W7.62mm",
+      "schematic": [
+        120,
+        85
+      ],
+      "pcb": [
+        22.86,
+        12.7
+      ],
+      "pins": {
+        "1": "GND",
+        "2": "TIMING",
+        "3": "OUT",
+        "4": "RESET",
+        "5": "CTRL",
+        "6": "TIMING",
+        "7": "DISCH",
+        "8": "+5V"
+      },
+      "datasheet": "https://www.ti.com/lit/ds/symlink/tlc555.pdf",
+      "uuid": "f4a1fb87-2199-413d-9a46-c07a368015cf"
+    },
+    {
+      "ref": "J1",
+      "value": "5V INPUT",
+      "lib": "Connector_Generic",
+      "sym": "Conn_01x02",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "schematic": [
+        40,
+        45
+      ],
+      "pcb": [
+        7.62,
+        10.16
+      ],
+      "pins": {
+        "1": "+5V",
+        "2": "GND"
+      },
+      "uuid": "a0becb91-17ce-456b-870b-1136161d6c2a"
+    },
+    {
+      "ref": "R1",
+      "value": "10k",
+      "lib": "Device",
+      "sym": "R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "schematic": [
+        175,
+        55
+      ],
+      "pcb": [
+        17.78,
+        5.08
+      ],
+      "pins": {
+        "1": "+5V",
+        "2": "DISCH"
+      },
+      "uuid": "e8ecebaf-1c6a-424e-bb94-cbce500696c2"
+    },
+    {
+      "ref": "R2",
+      "value": "100k",
+      "lib": "Device",
+      "sym": "R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "schematic": [
+        175,
+        85
+      ],
+      "pcb": [
+        35.56,
+        11.43
+      ],
+      "pins": {
+        "1": "DISCH",
+        "2": "TIMING"
+      },
+      "uuid": "165abd9e-9794-437f-8747-1e2aa9343118"
+    },
+    {
+      "ref": "R3",
+      "value": "1k",
+      "lib": "Device",
+      "sym": "R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "schematic": [
+        220,
+        70
+      ],
+      "pcb": [
+        33.02,
+        31.75
+      ],
+      "pins": {
+        "1": "OUT",
+        "2": "LED_A"
+      },
+      "uuid": "9ccc5b88-e844-4611-ae72-8d563545b0c0"
+    },
+    {
+      "ref": "R4",
+      "value": "10k",
+      "lib": "Device",
+      "sym": "R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "schematic": [
+        45,
+        135
+      ],
+      "pcb": [
+        6.35,
+        25.4
+      ],
+      "pins": {
+        "1": "+5V",
+        "2": "RESET"
+      },
+      "uuid": "29f0e47b-e979-4629-a599-d1e189556012"
+    },
+    {
+      "ref": "C1",
+      "value": "10uF 16V",
+      "lib": "Device",
+      "sym": "C_Polarized",
+      "footprint": "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm",
+      "schematic": [
+        175,
+        115
+      ],
+      "pcb": [
+        40.64,
+        19.05
+      ],
+      "pins": {
+        "1": "TIMING",
+        "2": "GND"
+      },
+      "uuid": "da85d549-58e9-4efb-b11a-b189eb186a7d"
+    },
+    {
+      "ref": "C2",
+      "value": "100nF",
+      "lib": "Device",
+      "sym": "C",
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm",
+      "schematic": [
+        70,
+        55
+      ],
+      "pcb": [
+        30.48,
+        7.62
+      ],
+      "pins": {
+        "1": "+5V",
+        "2": "GND"
+      },
+      "uuid": "23553925-4f36-44fe-a48d-9a416e66e72e"
+    },
+    {
+      "ref": "C3",
+      "value": "10nF",
+      "lib": "Device",
+      "sym": "C",
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm",
+      "schematic": [
+        75,
+        115
+      ],
+      "pcb": [
+        29.21,
+        26.67
+      ],
+      "pins": {
+        "1": "CTRL",
+        "2": "GND"
+      },
+      "uuid": "0bcc8a28-058c-4689-b9eb-8f43b333ad86"
+    },
+    {
+      "ref": "C4",
+      "value": "10uF 16V",
+      "lib": "Device",
+      "sym": "C_Polarized",
+      "footprint": "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm",
+      "schematic": [
+        45,
+        90
+      ],
+      "pcb": [
+        10.16,
+        17.78
+      ],
+      "pins": {
+        "1": "+5V",
+        "2": "GND"
+      },
+      "uuid": "75ffc454-8b73-4833-ae9a-57440d7836fa"
+    },
+    {
+      "ref": "SW1",
+      "value": "RESET",
+      "lib": "Switch",
+      "sym": "SW_Push",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "schematic": [
+        85,
+        145
+      ],
+      "pcb": [
+        17.78,
+        26.67
+      ],
+      "pins": {
+        "1": "RESET",
+        "2": "GND"
+      },
+      "uuid": "e001fde8-744f-4b3d-a79b-8a4241f3316d"
+    },
+    {
+      "ref": "D1",
+      "value": "RED LED",
+      "lib": "Device",
+      "sym": "LED",
+      "footprint": "LED_THT:LED_D5.0mm",
+      "schematic": [
+        220,
+        100
+      ],
+      "pcb": [
+        38.1,
+        26.67
+      ],
+      "pins": {
+        "1": "GND",
+        "2": "LED_A"
+      },
+      "uuid": "06cb6a40-3777-413a-9b53-1c37cb1cdf74"
+    },
+    {
+      "ref": "#FLG01",
+      "value": "PWR_FLAG",
+      "lib": "power",
+      "sym": "PWR_FLAG",
+      "footprint": "",
+      "schematic": [
+        40,
+        170
+      ],
+      "pins": {
+        "1": "+5V"
+      },
+      "uuid": "3f760dfe-3484-4851-904a-1df4f0991fe6"
+    },
+    {
+      "ref": "#FLG02",
+      "value": "PWR_FLAG",
+      "lib": "power",
+      "sym": "PWR_FLAG",
+      "footprint": "",
+      "schematic": [
+        75,
+        170
+      ],
+      "pins": {
+        "1": "GND"
+      },
+      "uuid": "2f9cb461-3d9a-4889-b880-2799bb3d9859"
+    }
+  ],
+  "board_mm": [
+    50,
+    35
+  ],
+  "supply_V": 5,
+  "nominal_frequency_Hz": 0.6857142857142856,
+  "nominal_duty_percent": 52.38095238095239,
+  "physical_test": "Not performed",
+  "source": "https://www.ti.com/lit/ds/symlink/tlc555.pdf",
+  "footprint_note": "Stock KiCad7 through-hole footprints; verify exact purchased part lead spacing/body before fabrication"
+}
