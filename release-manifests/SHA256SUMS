@@ -1,7 +1,7 @@
 434680ba397535734e16320c727fecf5bcc2e2ef322b5222bfd19c0ced7dfad4  ./.gitignore
 4149d5e3518583808262d210c981290ede4b67a95348eb7c0f9f26969cbcaab5  ./LICENSE
 882538c83e0e06463b9fbb745c573f3f6033e13af01f65c4857d009c18803574  ./MEDIA-LICENSE.md
-5f080c296f593fa7cda4fc625fbc8ded6636e28cebd16c5e6516743d8835c155  ./README.md
+9040f5e14d35c0eaa9716bc41ce90c7c5d0aa193b6057e0b81b4d1ae73449967  ./README.md
 e8b874f2d1a515c0f4bf0a50705704466a88ffd8adbced888771c078a713697d  ./THIRD-PARTY-NOTICES.md
 6554ad7d801511a4c94b2e994f2b5216867cd70f39b3f14519eff79a3f349168  ./docs/EVIDENCE-METHOD.md
 0d899c32f07d50306605fb6bb5224340b6185597d3d10f7648fcaed79b48e9e9  ./freecad/esp32-devkitc-v4/README.md
@@ -86,7 +86,7 @@ a0680420ffcb1b15957305a59f9dadf2a4f9dbc7064a587938acd0af92d4b614  ./freecad/nano
 d0ec6d87883b50c0472588a9c2b1196062e0763829aff218af057a59f3b72df8  ./freecad/nano-matter/images/08-finished.png
 f20760a3c86c2c9ec49f3261608cc0333ec92cbf87e63e795602511e1e017d34  ./freecad/nano-matter/images/09-exported.png
 6beef2da8bed74b579df18c146d6f8b2ed18305dac14ed54ff8afd22e93527f2  ./freecad/nano-matter/source/Nano-Matter-Case-v1.FCStd
-79b6f0d23b847c803cd1a82a65098703d232e1600de0286da4d11a7c82eab675  ./freecad/original-control-box/README.md
+025d21f34e44016884deb6f94adc27d04f2362b81e4a51a01d1df66d7d236303  ./freecad/original-control-box/README.md
 4db3e7b6b1bf3a1d81fe58379e2aaac27023760d8d2de785a63d3ff270f10d19  ./freecad/original-control-box/captions/FreeCAD-prompt-to-design-EN-v1.srt
 4db3e7b6b1bf3a1d81fe58379e2aaac27023760d8d2de785a63d3ff270f10d19  ./freecad/original-control-box/captions/FreeCAD-prompt-to-design-EN-v2.srt
 279b36031608d12e3940c1a1e31f4a1d5e8f52d0b55a8c748dff6d9882d41b51  ./freecad/original-control-box/exports/Control-Box-Base-v1.stl
