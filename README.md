@@ -43,7 +43,12 @@ rendered views, a project note, captions where available and SHA-256 hashes.
 Third-party board reference images and vendor CAD models are deliberately not
 redistributed.
 
-### KiCad project
+### KiCad and integrated electronics projects
+
+| Project | Editable source and exports | Film | Media status |
+|---|---|---|---|
+| [5 V pulse board](kicad/codex-pulse-5v/) | KiCad schematic, PCB, BOM, Gerbers and STEP | [YouTube Short](https://www.youtube.com/shorts/IghM537UqvI) | Public YouTube film; its approved master remains in the private archive and was not reconstructed from YouTube |
+| [Addressed LED full workflow](kicad/addressed-led-4ic/) | KiCad + FreeCAD + Gerbers + ESP32 example + local web/MQTT demo | [YouTube](https://www.youtube.com/watch?v=lBj9bRSQ6mM) · [MP4](https://github.com/finnandreh/codex-cad-electronics-lab/releases/download/evidence-2026-10-12/Codex-KiCad-FreeCAD-MQTT-Full-Workflow-10min-EN-v5.mp4) | Exact approved 600-second master; digital prototype, not physical validation |
 
 [`kicad/codex-pulse-5v`](kicad/codex-pulse-5v/) contains an editable KiCad
 7 project for a 5 V TLC555CP astable LED timer:
@@ -60,6 +65,12 @@ The recorded KiCad DRC result is zero violations, zero unconnected pads and
 zero footprint errors. The design is **unbuilt**: electrical operation,
 timing, assembly, purchased-part fit and manufacturability have not been
 physically tested.
+
+[`kicad/addressed-led-4ic`](kicad/addressed-led-4ic/) follows a broader
+commissioned-workflow pattern: requirement and protocol, electronic schematic,
+PCB/BOM/Gerbers, editable enclosure, controller example, local web/MQTT proof,
+narrated evidence and a documented handoff. The software evidence is real; the
+board remains unbuilt and the firmware is uncompiled and unflashed.
 
 ## The workflow behind the files
 
@@ -105,5 +116,6 @@ materials retain their own licences; see
 
 - [FreeCAD with Codex — Finnandre](https://finnandre.no/resources/freecad-with-codex/)
 - [KiCad PCB design with Codex — Finnandre](https://finnandre.no/resources/kicad-pcb-design-with-codex/)
+- [CAD, PCB, firmware and connected prototype service — Finnandre](https://finnandre.no/services/cad-pcb-firmware-prototypes/)
 - [Finnandre Open](https://finnandre.no/resources/)
 - [Finn Andre Hotvedt on YouTube](https://www.youtube.com/@finnandrehotvedt6974)

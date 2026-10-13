@@ -1,0 +1,9 @@
+{
+  "name": "codex-address-led-local-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "node server.mjs"},
+  "engines": {"node": ">=20"},
+  "dependencies": {"aedes": "1.2.0", "mqtt": "5.16.0"}
+}

@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-10-12T10:58:08+02:00",
+  "status": "PASS",
+  "model": "Ideal event-level 164 + 688 + 273 logic truth-table model; not SPICE or physical test",
+  "exhaustive_frames": 65536,
+  "boards": 16,
+  "checks": [
+    "All 256 address bytes x 256 output bytes",
+    "Only address 0..15 can match",
+    "Every non-selected board retains its previous byte",
+    "No output changes during shifting or STROBE low",
+    "Selected output commits only on LOW-to-HIGH STROBE end",
+    "Manual reset clears shift and output state",
+    "Sequential per-board writes retain independent values"
+  ],
+  "limits": [
+    "Does not simulate propagation glitches, supply integrity, loading or cable signal quality",
+    "Requires clean edges, initialized controller outputs and documented sequencing"
+  ]
+}

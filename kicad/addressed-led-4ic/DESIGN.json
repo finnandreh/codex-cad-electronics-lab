@@ -1,0 +1,925 @@
+{
+  "name": "Codex-Address-LED-4IC",
+  "schematic_uuid": "a414c218-ed6c-4486-9ef1-19ef125a17b3",
+  "components": [
+    {
+      "ref": "U1",
+      "value": "CD74HCT164E",
+      "lib": "74xx",
+      "sym": "74HC164",
+      "footprint": "Package_DIP:DIP-14_W7.62mm",
+      "schematic": [
+        85,
+        65
+      ],
+      "pcb": [
+        20.32,
+        20.32
+      ],
+      "pins": {
+        "1": "DATA",
+        "2": "+5V",
+        "7": "GND",
+        "8": "CLOCK",
+        "9": "RESET_N",
+        "14": "+5V",
+        "3": "DATA0",
+        "4": "DATA1",
+        "5": "DATA2",
+        "6": "DATA3",
+        "10": "DATA4",
+        "11": "DATA5",
+        "12": "DATA6",
+        "13": "DATA7"
+      },
+      "datasheet": "https://www.ti.com/lit/ds/symlink/cd74hct164.pdf",
+      "uuid": "9b8e1ab5-41cf-4b1b-9663-a0d241d2feaa"
+    },
+    {
+      "ref": "U2",
+      "value": "CD74HCT164E",
+      "lib": "74xx",
+      "sym": "74HC164",
+      "footprint": "Package_DIP:DIP-14_W7.62mm",
+      "schematic": [
+        85,
+        140
+      ],
+      "pcb": [
+        40.64,
+        20.32
+      ],
+      "pins": {
+        "1": "DATA7",
+        "2": "+5V",
+        "7": "GND",
+        "8": "CLOCK",
+        "9": "RESET_N",
+        "14": "+5V",
+        "3": "RX_ADDR0",
+        "4": "RX_ADDR1",
+        "5": "RX_ADDR2",
+        "6": "RX_ADDR3",
+        "10": "RX_ADDR4",
+        "11": "RX_ADDR5",
+        "12": "RX_ADDR6",
+        "13": "RX_ADDR7"
+      },
+      "datasheet": "https://www.ti.com/lit/ds/symlink/cd74hct164.pdf",
+      "uuid": "72198fec-5b65-431f-8c53-c5842908b01e"
+    },
+    {
+      "ref": "U3",
+      "value": "CD74HCT688E",
+      "lib": "74xx",
+      "sym": "74HC688",
+      "footprint": "Package_DIP:DIP-20_W7.62mm",
+      "schematic": [
+        170,
+        85
+      ],
+      "pcb": [
+        60.96,
+        20.32
+      ],
+      "pins": {
+        "1": "STROBE",
+        "10": "GND",
+        "19": "COMMIT_CLK",
+        "20": "+5V",
+        "2": "RX_ADDR0",
+        "4": "RX_ADDR1",
+        "6": "RX_ADDR2",
+        "8": "RX_ADDR3",
+        "11": "RX_ADDR4",
+        "13": "RX_ADDR5",
+        "15": "RX_ADDR6",
+        "17": "RX_ADDR7",
+        "3": "ADDR0",
+        "5": "ADDR1",
+        "7": "ADDR2",
+        "9": "ADDR3",
+        "12": "GND",
+        "14": "GND",
+        "16": "GND",
+        "18": "GND"
+      },
+      "datasheet": "https://www.ti.com/lit/ds/symlink/cd74hct688.pdf",
+      "uuid": "7065acf3-37a9-4e93-801d-201345c745fa"
+    },
+    {
+      "ref": "U4",
+      "value": "CD74HCT273E",
+      "lib": "74xx",
+      "sym": "74HC273",
+      "footprint": "Package_DIP:DIP-20_W7.62mm",
+      "schematic": [
+        265,
+        75
+      ],
+      "pcb": [
+        81.28,
+        20.32
+      ],
+      "pins": {
+        "1": "RESET_N",
+        "10": "GND",
+        "11": "COMMIT_CLK",
+        "20": "+5V",
+        "3": "DATA0",
+        "4": "DATA1",
+        "7": "DATA2",
+        "8": "DATA3",
+        "13": "DATA4",
+        "14": "DATA5",
+        "17": "DATA6",
+        "18": "DATA7",
+        "2": "LED0",
+        "5": "LED1",
+        "6": "LED2",
+        "9": "LED3",
+        "12": "LED4",
+        "15": "LED5",
+        "16": "LED6",
+        "19": "LED7"
+      },
+      "datasheet": "https://www.ti.com/lit/ds/symlink/cd74hct273.pdf",
+      "uuid": "c28ee09c-1823-4e03-af52-4936a216360e"
+    },
+    {
+      "ref": "J1",
+      "value": "5V GND DATA CLK STB",
+      "lib": "Connector_Generic",
+      "sym": "Conn_01x05",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+      "schematic": [
+        35,
+        50
+      ],
+      "pcb": [
+        7.62,
+        17.78
+      ],
+      "pins": {
+        "1": "+5V",
+        "2": "GND",
+        "3": "DATA",
+        "4": "CLOCK",
+        "5": "STROBE"
+      },
+      "uuid": "09bd9495-41f2-4945-9c54-0a9e6f05dede"
+    },
+    {
+      "ref": "J2",
+      "value": "5V GND DATA CLK STB",
+      "lib": "Connector_Generic",
+      "sym": "Conn_01x05",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+      "schematic": [
+        35,
+        100
+      ],
+      "pcb": [
+        101.6,
+        17.78
+      ],
+      "pins": {
+        "1": "+5V",
+        "2": "GND",
+        "3": "DATA",
+        "4": "CLOCK",
+        "5": "STROBE"
+      },
+      "uuid": "142f4d61-4905-4e28-b4d2-52e2e105b20a"
+    },
+    {
+      "ref": "R1",
+      "value": "2.2k",
+      "lib": "Device",
+      "sym": "R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "schematic": [
+        220,
+        165
+      ],
+      "pcb": [
+        12.7,
+        60.96
+      ],
+      "pins": {
+        "1": "LED0",
+        "2": "LED_A0"
+      },
+      "uuid": "9e360c72-96ff-403d-9aeb-fc1748e82c61"
+    },
+    {
+      "ref": "D1",
+      "value": "RED LED",
+      "lib": "Device",
+      "sym": "LED",
+      "footprint": "LED_THT:LED_D3.0mm",
+      "schematic": [
+        220,
+        185
+      ],
+      "pcb": [
+        16.509999999999998,
+        69.85
+      ],
+      "pins": {
+        "1": "GND",
+        "2": "LED_A0"
+      },
+      "uuid": "478a8de8-3f01-405b-af61-defd37452c3d"
+    },
+    {
+      "ref": "R2",
+      "value": "2.2k",
+      "lib": "Device",
+      "sym": "R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "schematic": [
+        265,
+        165
+      ],
+      "pcb": [
+        24.13,
+        60.96
+      ],
+      "pins": {
+        "1": "LED1",
+        "2": "LED_A1"
+      },
+      "uuid": "e6c08fe9-f211-47cf-91ee-4e3229766405"
+    },
+    {
+      "ref": "D2",
+      "value": "RED LED",
+      "lib": "Device",
+      "sym": "LED",
+      "footprint": "LED_THT:LED_D3.0mm",
+      "schematic": [
+        265,
+        185
+      ],
+      "pcb": [
+        27.939999999999998,
+        69.85
+      ],
+      "pins": {
+        "1": "GND",
+        "2": "LED_A1"
+      },
+      "uuid": "10c81220-5d37-41a2-bf98-55d291f99410"
+    },
+    {
+      "ref": "R3",
+      "value": "2.2k",
+      "lib": "Device",
+      "sym": "R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "schematic": [
+        310,
+        165
+      ],
+      "pcb": [
+        35.56,
+        60.96
+      ],
+      "pins": {
+        "1": "LED2",
+        "2": "LED_A2"
+      },
+      "uuid": "20ad3e06-245e-4353-b405-cb6a186e4866"
+    },
+    {
+      "ref": "D3",
+      "value": "RED LED",
+      "lib": "Device",
+      "sym": "LED",
+      "footprint": "LED_THT:LED_D3.0mm",
+      "schematic": [
+        310,
+        185
+      ],
+      "pcb": [
+        39.370000000000005,
+        69.85
+      ],
+      "pins": {
+        "1": "GND",
+        "2": "LED_A2"
+      },
+      "uuid": "3cf1e800-91f5-4483-81a6-431052059358"
+    },
+    {
+      "ref": "R4",
+      "value": "2.2k",
+      "lib": "Device",
+      "sym": "R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "schematic": [
+        355,
+        165
+      ],
+      "pcb": [
+        46.989999999999995,
+        60.96
+      ],
+      "pins": {
+        "1": "LED3",
+        "2": "LED_A3"
+      },
+      "uuid": "f27517f4-d446-4cb0-83da-eb07fd121f5a"
+    },
+    {
+      "ref": "D4",
+      "value": "RED LED",
+      "lib": "Device",
+      "sym": "LED",
+      "footprint": "LED_THT:LED_D3.0mm",
+      "schematic": [
+        355,
+        185
+      ],
+      "pcb": [
+        50.8,
+        69.85
+      ],
+      "pins": {
+        "1": "GND",
+        "2": "LED_A3"
+      },
+      "uuid": "3a84238a-fe39-4d77-afb9-dabbb2058db8"
+    },
+    {
+      "ref": "R5",
+      "value": "2.2k",
+      "lib": "Device",
+      "sym": "R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "schematic": [
+        220,
+        220
+      ],
+      "pcb": [
+        58.42,
+        60.96
+      ],
+      "pins": {
+        "1": "LED4",
+        "2": "LED_A4"
+      },
+      "uuid": "a393e1e9-5f7f-4cb6-aa91-322297128721"
+    },
+    {
+      "ref": "D5",
+      "value": "RED LED",
+      "lib": "Device",
+      "sym": "LED",
+      "footprint": "LED_THT:LED_D3.0mm",
+      "schematic": [
+        220,
+        240
+      ],
+      "pcb": [
+        62.230000000000004,
+        69.85
+      ],
+      "pins": {
+        "1": "GND",
+        "2": "LED_A4"
+      },
+      "uuid": "31f03696-c039-43c6-8645-17915c2cca42"
+    },
+    {
+      "ref": "R6",
+      "value": "2.2k",
+      "lib": "Device",
+      "sym": "R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "schematic": [
+        265,
+        220
+      ],
+      "pcb": [
+        69.85,
+        60.96
+      ],
+      "pins": {
+        "1": "LED5",
+        "2": "LED_A5"
+      },
+      "uuid": "f5dc1b04-092d-4190-a59e-b7fecced0ccd"
+    },
+    {
+      "ref": "D6",
+      "value": "RED LED",
+      "lib": "Device",
+      "sym": "LED",
+      "footprint": "LED_THT:LED_D3.0mm",
+      "schematic": [
+        265,
+        240
+      ],
+      "pcb": [
+        73.66,
+        69.85
+      ],
+      "pins": {
+        "1": "GND",
+        "2": "LED_A5"
+      },
+      "uuid": "17f2573e-9ad0-4941-be6a-8f78cede7bf4"
+    },
+    {
+      "ref": "R7",
+      "value": "2.2k",
+      "lib": "Device",
+      "sym": "R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "schematic": [
+        310,
+        220
+      ],
+      "pcb": [
+        81.28,
+        60.96
+      ],
+      "pins": {
+        "1": "LED6",
+        "2": "LED_A6"
+      },
+      "uuid": "8021c304-79a7-4b73-b6d6-85057d6b158e"
+    },
+    {
+      "ref": "D7",
+      "value": "RED LED",
+      "lib": "Device",
+      "sym": "LED",
+      "footprint": "LED_THT:LED_D3.0mm",
+      "schematic": [
+        310,
+        240
+      ],
+      "pcb": [
+        85.09,
+        69.85
+      ],
+      "pins": {
+        "1": "GND",
+        "2": "LED_A6"
+      },
+      "uuid": "1258718b-93a5-4802-8998-d4a24b03d3f5"
+    },
+    {
+      "ref": "R8",
+      "value": "2.2k",
+      "lib": "Device",
+      "sym": "R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "schematic": [
+        355,
+        220
+      ],
+      "pcb": [
+        92.71,
+        60.96
+      ],
+      "pins": {
+        "1": "LED7",
+        "2": "LED_A7"
+      },
+      "uuid": "e9f90f8d-6efb-4bf0-bc9d-ec892a5fed00"
+    },
+    {
+      "ref": "D8",
+      "value": "RED LED",
+      "lib": "Device",
+      "sym": "LED",
+      "footprint": "LED_THT:LED_D3.0mm",
+      "schematic": [
+        355,
+        240
+      ],
+      "pcb": [
+        96.52,
+        69.85
+      ],
+      "pins": {
+        "1": "GND",
+        "2": "LED_A7"
+      },
+      "uuid": "5f60f3f6-0d5b-4906-a544-2d28d1d0bfbe"
+    },
+    {
+      "ref": "JP1",
+      "value": "ADDR 1",
+      "lib": "Jumper",
+      "sym": "Jumper_2_Open",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "schematic": [
+        30,
+        210
+      ],
+      "pcb": [
+        12.7,
+        43.18
+      ],
+      "pins": {
+        "1": "+5V",
+        "2": "ADDR0"
+      },
+      "uuid": "be0d1842-a73c-40e9-8c69-a46eed95467d"
+    },
+    {
+      "ref": "R9",
+      "value": "10k",
+      "lib": "Device",
+      "sym": "R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "schematic": [
+        30,
+        235
+      ],
+      "pcb": [
+        12.7,
+        52.07
+      ],
+      "pins": {
+        "1": "ADDR0",
+        "2": "GND"
+      },
+      "uuid": "2ba01f2b-e509-4a6b-9449-4ce088ad67cf"
+    },
+    {
+      "ref": "JP2",
+      "value": "ADDR 2",
+      "lib": "Jumper",
+      "sym": "Jumper_2_Open",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "schematic": [
+        75,
+        210
+      ],
+      "pcb": [
+        24.13,
+        43.18
+      ],
+      "pins": {
+        "1": "+5V",
+        "2": "ADDR1"
+      },
+      "uuid": "15a7418d-7657-4aa0-9610-83a288024c9d"
+    },
+    {
+      "ref": "R10",
+      "value": "10k",
+      "lib": "Device",
+      "sym": "R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "schematic": [
+        75,
+        235
+      ],
+      "pcb": [
+        24.13,
+        52.07
+      ],
+      "pins": {
+        "1": "ADDR1",
+        "2": "GND"
+      },
+      "uuid": "14b865fb-3b83-4261-ae73-f864e5f4672b"
+    },
+    {
+      "ref": "JP3",
+      "value": "ADDR 4",
+      "lib": "Jumper",
+      "sym": "Jumper_2_Open",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "schematic": [
+        120,
+        210
+      ],
+      "pcb": [
+        35.56,
+        43.18
+      ],
+      "pins": {
+        "1": "+5V",
+        "2": "ADDR2"
+      },
+      "uuid": "8bb30a66-f3b3-40c8-a6d7-c13868a69611"
+    },
+    {
+      "ref": "R11",
+      "value": "10k",
+      "lib": "Device",
+      "sym": "R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "schematic": [
+        120,
+        235
+      ],
+      "pcb": [
+        35.56,
+        52.07
+      ],
+      "pins": {
+        "1": "ADDR2",
+        "2": "GND"
+      },
+      "uuid": "0747b05c-9fda-4434-8ee8-12600ac1c862"
+    },
+    {
+      "ref": "JP4",
+      "value": "ADDR 8",
+      "lib": "Jumper",
+      "sym": "Jumper_2_Open",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "schematic": [
+        165,
+        210
+      ],
+      "pcb": [
+        46.989999999999995,
+        43.18
+      ],
+      "pins": {
+        "1": "+5V",
+        "2": "ADDR3"
+      },
+      "uuid": "e5b503d8-f5fe-4b51-8bfe-0e64763d6e31"
+    },
+    {
+      "ref": "R12",
+      "value": "10k",
+      "lib": "Device",
+      "sym": "R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "schematic": [
+        165,
+        235
+      ],
+      "pcb": [
+        45.72,
+        52.07
+      ],
+      "pins": {
+        "1": "ADDR3",
+        "2": "GND"
+      },
+      "uuid": "976b07ec-e026-425a-acbf-240723fad56d"
+    },
+    {
+      "ref": "R13",
+      "value": "10k",
+      "lib": "Device",
+      "sym": "R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "schematic": [
+        30,
+        150
+      ],
+      "pcb": [
+        69.85,
+        52.07
+      ],
+      "pins": {
+        "1": "+5V",
+        "2": "RESET_N"
+      },
+      "uuid": "ad2e9b66-bfb0-4eb2-8086-e15ccda37b2c"
+    },
+    {
+      "ref": "R14",
+      "value": "10k",
+      "lib": "Device",
+      "sym": "R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "schematic": [
+        30,
+        175
+      ],
+      "pcb": [
+        89.535,
+        52.07
+      ],
+      "pins": {
+        "1": "GND",
+        "2": "STROBE"
+      },
+      "uuid": "95fb2b7b-f71d-4b56-8d24-7510936bda5d"
+    },
+    {
+      "ref": "R15",
+      "value": "10k",
+      "lib": "Device",
+      "sym": "R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "schematic": [
+        120,
+        175
+      ],
+      "pcb": [
+        69.85,
+        55.88
+      ],
+      "pins": {
+        "1": "GND",
+        "2": "DATA"
+      },
+      "uuid": "d1907d9d-0f5f-496d-ad00-480034cb646d"
+    },
+    {
+      "ref": "R16",
+      "value": "10k",
+      "lib": "Device",
+      "sym": "R",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "schematic": [
+        165,
+        175
+      ],
+      "pcb": [
+        89.535,
+        55.88
+      ],
+      "pins": {
+        "1": "GND",
+        "2": "CLOCK"
+      },
+      "uuid": "75013098-eb86-4419-bf3e-a50258b8e991"
+    },
+    {
+      "ref": "SW1",
+      "value": "RESET",
+      "lib": "Switch",
+      "sym": "SW_Push",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "schematic": [
+        75,
+        175
+      ],
+      "pcb": [
+        57.15,
+        48.26
+      ],
+      "pins": {
+        "1": "RESET_N",
+        "2": "GND"
+      },
+      "uuid": "9ef5ef3b-ae99-4b63-a9b5-6bfe9e639f9f"
+    },
+    {
+      "ref": "C1",
+      "value": "100nF",
+      "lib": "Device",
+      "sym": "C",
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm",
+      "schematic": [
+        320,
+        80
+      ],
+      "pcb": [
+        27.94,
+        15.24
+      ],
+      "pins": {
+        "1": "+5V",
+        "2": "GND"
+      },
+      "uuid": "ae246862-cdcd-471d-bc95-d9905aff90c2"
+    },
+    {
+      "ref": "C2",
+      "value": "100nF",
+      "lib": "Device",
+      "sym": "C",
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm",
+      "schematic": [
+        343,
+        80
+      ],
+      "pcb": [
+        48.26,
+        15.24
+      ],
+      "pins": {
+        "1": "+5V",
+        "2": "GND"
+      },
+      "uuid": "bab0902e-1a00-499d-81d4-05078ff66877"
+    },
+    {
+      "ref": "C3",
+      "value": "100nF",
+      "lib": "Device",
+      "sym": "C",
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm",
+      "schematic": [
+        366,
+        80
+      ],
+      "pcb": [
+        68.58,
+        15.24
+      ],
+      "pins": {
+        "1": "+5V",
+        "2": "GND"
+      },
+      "uuid": "75f2649d-25ed-49c1-bacb-54dadaee5163"
+    },
+    {
+      "ref": "C4",
+      "value": "100nF",
+      "lib": "Device",
+      "sym": "C",
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm",
+      "schematic": [
+        389,
+        80
+      ],
+      "pcb": [
+        88.9,
+        15.24
+      ],
+      "pins": {
+        "1": "+5V",
+        "2": "GND"
+      },
+      "uuid": "5cab5fe8-3519-46b1-9f4b-c6ce9d50f9d9"
+    },
+    {
+      "ref": "C5",
+      "value": "10uF 16V",
+      "lib": "Device",
+      "sym": "C_Polarized",
+      "footprint": "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm",
+      "schematic": [
+        330,
+        115
+      ],
+      "pcb": [
+        7.62,
+        35.56
+      ],
+      "pins": {
+        "1": "+5V",
+        "2": "GND"
+      },
+      "uuid": "a87611bb-7ce5-4014-b2e5-6ecb77ca787e"
+    },
+    {
+      "ref": "#FLG01",
+      "value": "PWR_FLAG",
+      "lib": "power",
+      "sym": "PWR_FLAG",
+      "footprint": "",
+      "schematic": [
+        350,
+        140
+      ],
+      "pcb": [
+        0,
+        0
+      ],
+      "pins": {
+        "1": "+5V"
+      },
+      "uuid": "1882b21c-3243-4828-94db-543f1a7c579d"
+    },
+    {
+      "ref": "#FLG02",
+      "value": "PWR_FLAG",
+      "lib": "power",
+      "sym": "PWR_FLAG",
+      "footprint": "",
+      "schematic": [
+        375,
+        140
+      ],
+      "pcb": [
+        0,
+        0
+      ],
+      "pins": {
+        "1": "GND"
+      },
+      "uuid": "82f1d1a0-09bf-4405-be14-c696f2db307a"
+    }
+  ],
+  "board_mm": [
+    110,
+    80
+  ],
+  "supply_V": 5,
+  "physical_test": "Not performed",
+  "sources": [
+    "https://www.ti.com/lit/ds/symlink/cd74hct164.pdf",
+    "https://www.ti.com/lit/ds/symlink/cd74hct688.pdf",
+    "https://www.ti.com/lit/ds/symlink/cd74hct273.pdf"
+  ]
+}

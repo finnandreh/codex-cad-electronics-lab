@@ -1,0 +1,971 @@
+1
+00:00:00,050 --> 00:00:03,068
+At finnandre dot no, we believe clients deserve
+
+2
+00:00:03,000 --> 00:00:06,055
+current tools and fast, working demonstrations.
+
+3
+00:00:06,838 --> 00:00:09,142
+Visible results give you evidence, and give an
+
+4
+00:00:09,075 --> 00:00:11,505
+AI agent feedback on what to improve.
+
+5
+00:00:12,288 --> 00:00:14,718
+Ask your developer: are you keeping up, and
+
+6
+00:00:14,650 --> 00:00:15,480
+can you show me?
+
+7
+00:00:16,262 --> 00:00:18,530
+A course certificate is a starting point.
+
+8
+00:00:19,312 --> 00:00:21,518
+Staying ahead takes continuous learning.
+
+9
+00:00:22,300 --> 00:00:25,892
+Codex agents can research, build, test and improve,
+
+10
+00:00:25,925 --> 00:00:27,055
+with human review.
+
+11
+00:00:27,838 --> 00:00:30,230
+Watch us connect a KiCad circuit board, a
+
+12
+00:00:30,162 --> 00:00:33,918
+FreeCAD enclosure, controller code and a working local
+
+13
+00:00:33,850 --> 00:00:35,530
+MQTT demonstration.
+
+14
+00:00:36,833 --> 00:00:39,720
+The schematic uses exactly four integrated circuits.
+
+15
+00:00:40,433 --> 00:00:43,160
+Two seventy-four H C T one sixty-four shift
+
+16
+00:00:43,096 --> 00:00:44,565
+registers receive the message.
+
+17
+00:00:45,278 --> 00:00:47,342
+A six eighty-eight compares the address.
+
+18
+00:00:48,055 --> 00:00:50,553
+A two seventy-three output register stores the LED
+
+19
+00:00:50,489 --> 00:00:50,976
+pattern.
+
+20
+00:00:51,689 --> 00:00:53,890
+Shifting and output storage are separate, so the
+
+21
+00:00:53,826 --> 00:00:55,741
+lights do not change while the next message
+
+22
+00:00:55,678 --> 00:00:56,324
+arrives.
+
+23
+00:00:57,233 --> 00:00:59,354
+Why only eight LEDs for four chips?
+
+24
+00:01:00,067 --> 00:01:02,360
+Two chips receive the sixteen serial bits.
+
+25
+00:01:03,073 --> 00:01:05,719
+One compares the selected address, and one stores
+
+26
+00:01:05,656 --> 00:01:06,679
+eight output bits.
+
+27
+00:01:07,393 --> 00:01:08,931
+They perform different jobs.
+
+28
+00:01:09,644 --> 00:01:11,639
+They are not four eight-channel LED drivers.
+
+29
+00:01:12,352 --> 00:01:15,204
+A seventy-four H C five ninety-five combines shifting
+
+30
+00:01:15,140 --> 00:01:17,970
+and output storage, and could simplify another design.
+
+31
+00:01:18,683 --> 00:01:21,970
+This version deliberately makes address reception, comparison and
+
+32
+00:01:21,906 --> 00:01:22,884
+storage visible.
+
+33
+00:01:23,800 --> 00:01:26,149
+Four removable jumpers have the weights one, two,
+
+34
+00:01:26,337 --> 00:01:27,167
+four and eight.
+
+35
+00:01:27,880 --> 00:01:29,715
+Add the fitted jumper values to choose an
+
+36
+00:01:29,651 --> 00:01:31,349
+address from zero to fifteen.
+
+37
+00:01:32,062 --> 00:01:34,023
+One plus four selects board five.
+
+38
+00:01:34,736 --> 00:01:37,440
+Eight current-limited LEDs show the stored output byte.
+
+39
+00:01:38,333 --> 00:01:40,363
+The controller sends an address byte, then an
+
+40
+00:01:40,299 --> 00:01:42,557
+output byte, most significant bit first.
+
+41
+00:01:43,270 --> 00:01:44,911
+Keep strobe high while shifting.
+
+42
+00:01:45,624 --> 00:01:48,225
+After the data settles, pulse strobe low, then
+
+43
+00:01:48,161 --> 00:01:48,671
+high.
+
+44
+00:01:49,384 --> 00:01:51,562
+Only the matching board stores the new pattern.
+
+45
+00:01:52,275 --> 00:01:54,499
+The other boards keep their previous values.
+
+46
+00:01:55,400 --> 00:01:57,064
+Now the real PCB editor.
+
+47
+00:01:57,777 --> 00:01:59,898
+This is a two-layer, one hundred and ten
+
+48
+00:01:59,834 --> 00:02:02,686
+by eighty millimetre prototype, with through-hole parts and
+
+49
+00:02:02,622 --> 00:02:03,898
+four mounting holes.
+
+50
+00:02:04,611 --> 00:02:06,023
+The project stays editable.
+
+51
+00:02:06,933 --> 00:02:08,414
+First, front copper.
+
+52
+00:02:09,127 --> 00:02:11,157
+The red tracks connect component pins on the
+
+53
+00:02:11,093 --> 00:02:11,843
+top side.
+
+54
+00:02:12,556 --> 00:02:14,791
+Vias allow a connection to move between the
+
+55
+00:02:14,727 --> 00:02:16,654
+two copper layers.
+
+56
+00:02:16,590 --> 00:02:18,825
+These are actual KiCad layer changes recorded with
+
+57
+00:02:18,761 --> 00:02:19,488
+OBS.
+
+58
+00:02:20,367 --> 00:02:21,676
+Next, back copper.
+
+59
+00:02:22,389 --> 00:02:24,099
+The blue tracks complete the routing.
+
+60
+00:02:24,812 --> 00:02:27,676
+A ground-filled zone occupies the available space, with
+
+61
+00:02:27,612 --> 00:02:29,196
+clearances around other nets.
+
+62
+00:02:29,909 --> 00:02:32,692
+Short routes and local supply bypass capacitors matter,
+
+63
+00:02:32,857 --> 00:02:34,452
+even on a slow logic board.
+
+64
+00:02:35,367 --> 00:02:37,910
+Silkscreen is the printed information for assembly and
+
+65
+00:02:37,846 --> 00:02:38,390
+use.
+
+66
+00:02:39,104 --> 00:02:42,196
+Here we identify the chip functions, jumper weights
+
+67
+00:02:42,132 --> 00:02:44,138
+and LED numbers.
+
+68
+00:02:44,075 --> 00:02:46,138
+Designed with OpenAI Codex is also printed on
+
+69
+00:02:46,074 --> 00:02:46,653
+the board.
+
+70
+00:02:47,567 --> 00:02:50,019
+Solder mask is a separate manufacturing layer.
+
+71
+00:02:50,732 --> 00:02:52,899
+Its openings expose the pads where solder must
+
+72
+00:02:52,835 --> 00:02:54,339
+bond.
+
+73
+00:02:54,275 --> 00:02:56,590
+It is not another copper layer.
+
+74
+00:02:56,526 --> 00:02:59,013
+KiCad keeps these definitions separate from the electrical
+
+75
+00:02:58,949 --> 00:02:59,721
+connections.
+
+76
+00:03:00,600 --> 00:03:02,858
+Edge Cuts defines the finished board outline.
+
+77
+00:03:03,571 --> 00:03:06,435
+The drill exports separately describe plated connections and
+
+78
+00:03:06,371 --> 00:03:07,863
+non-plated mounting holes.
+
+79
+00:03:08,576 --> 00:03:11,212
+Mechanical dimensions must also agree with the future
+
+80
+00:03:11,148 --> 00:03:11,829
+enclosure.
+
+81
+00:03:12,733 --> 00:03:14,923
+The native KiCad board check reports zero design-rule
+
+82
+00:03:14,859 --> 00:03:18,694
+violations, zero unconnected pads and zero footprint errors.
+
+83
+00:03:18,630 --> 00:03:23,036
+An ideal logic model passes sixty-five thousand, five
+
+84
+00:03:22,973 --> 00:03:25,825
+hundred and thirty-six address and data combinations.
+
+85
+00:03:26,538 --> 00:03:29,264
+Electrical rule checking, a physical build and bench
+
+86
+00:03:29,201 --> 00:03:30,419
+testing still remain.
+
+87
+00:03:31,333 --> 00:03:33,020
+Now the components are on the board in
+
+88
+00:03:32,956 --> 00:03:36,974
+three dimensions: four logic chips, eight red LEDs,
+
+89
+00:03:37,127 --> 00:03:40,814
+resistors, bypass capacitors, the reset switch and headers.
+
+90
+00:03:40,750 --> 00:03:43,419
+This assembly comes from KiCad using its installed
+
+91
+00:03:43,355 --> 00:03:45,773
+component models, exported as STEP and displayed in
+
+92
+00:03:45,709 --> 00:03:46,185
+FreeCAD.
+
+93
+00:03:46,898 --> 00:03:49,419
+STEP carries the component geometry here, but not
+
+94
+00:03:49,355 --> 00:03:51,704
+the copper or silkscreen.
+
+95
+00:03:51,640 --> 00:03:54,287
+The earlier KiCad views show those manufacturing layers
+
+96
+00:03:54,223 --> 00:03:54,801
+separately.
+
+97
+00:03:55,700 --> 00:03:58,049
+For the controller compartment, start with the official
+
+98
+00:03:57,986 --> 00:04:00,141
+Espressif DevKit C version four drawing.
+
+99
+00:04:00,854 --> 00:04:03,260
+The PCB is twenty-seven point nine four by
+
+100
+00:04:03,197 --> 00:04:05,260
+forty-eight point two six millimetres.
+
+101
+00:04:05,973 --> 00:04:08,609
+The module antenna extends beyond that board outline.
+
+102
+00:04:09,322 --> 00:04:11,945
+Our reference includes that extension, so the plastic
+
+103
+00:04:11,882 --> 00:04:13,202
+bay does not cut through it.
+
+104
+00:04:13,916 --> 00:04:16,825
+Connector heights and cable space remain simplified estimates,
+
+105
+00:04:16,933 --> 00:04:18,745
+to be checked against the actual board.
+
+106
+00:04:19,633 --> 00:04:21,857
+In FreeCAD, the outside box is one hundred
+
+107
+00:04:21,793 --> 00:04:23,800
+and ninety by one hundred and fifteen millimetres,
+
+108
+00:04:23,736 --> 00:04:25,891
+with a thirty-four millimetre base height.
+
+109
+00:04:25,827 --> 00:04:28,634
+Subtract an inner box to create a hollow
+
+110
+00:04:28,570 --> 00:04:28,954
+shell.
+
+111
+00:04:28,890 --> 00:04:31,753
+The wall and floor are two point four
+
+112
+00:04:31,689 --> 00:04:32,439
+millimetres.
+
+113
+00:04:33,152 --> 00:04:35,810
+A dimension spreadsheet controls the main envelope and
+
+114
+00:04:35,746 --> 00:04:36,907
+LED aperture size.
+
+115
+00:04:37,620 --> 00:04:40,678
+The feature tree retains the boxes, cylinders, unions
+
+116
+00:04:40,683 --> 00:04:42,004
+and cuts used to build it.
+
+117
+00:04:42,900 --> 00:04:46,244
+Place four PCB supports at the actual mounting-hole
+
+118
+00:04:46,957 --> 00:04:47,306
+positions.
+
+119
+00:04:47,242 --> 00:04:49,992
+Check nearby components and solder leads, rather than
+
+120
+00:04:49,928 --> 00:04:53,409
+assuming every screw hole has unlimited space around
+
+121
+00:04:53,345 --> 00:04:53,843
+it.
+
+122
+00:04:53,779 --> 00:04:56,117
+One original support touched a switch lead, so
+
+123
+00:04:56,053 --> 00:04:58,220
+its diameter was reduced.
+
+124
+00:04:58,156 --> 00:05:00,311
+Add separate lid screw bosses and a low
+
+125
+00:05:00,247 --> 00:05:02,071
+divider between the main board and the ESP32
+
+126
+00:05:02,007 --> 00:05:02,311
+bay.
+
+127
+00:05:02,247 --> 00:05:06,151
+The final modelled parts have no solid intersections.
+
+128
+00:05:07,067 --> 00:05:08,730
+The lid has eight aligned apertures.
+
+129
+00:05:09,444 --> 00:05:11,747
+Their centres come from the transformed LED models,
+
+130
+00:05:11,843 --> 00:05:13,507
+rather than from an approximate image.
+
+131
+00:05:14,220 --> 00:05:16,147
+Because the chips and capacitors are taller than
+
+132
+00:05:16,083 --> 00:05:18,421
+the LED lenses, illustrative light guides carry the
+
+133
+00:05:18,357 --> 00:05:19,301
+light up to the lid.
+
+134
+00:05:20,014 --> 00:05:22,306
+Their optical performance and retention are not yet
+
+135
+00:05:22,243 --> 00:05:22,764
+tested.
+
+136
+00:05:23,477 --> 00:05:25,998
+Watch the aperture parameter change, and then return
+
+137
+00:05:25,934 --> 00:05:28,375
+to the exported three point four millimetre size.
+
+138
+00:05:29,267 --> 00:05:31,399
+Lift the lid and inspect the complete assembly.
+
+139
+00:05:32,112 --> 00:05:34,302
+The main PCB sits on its posts, and
+
+140
+00:05:34,238 --> 00:05:36,176
+a separate cradle supports the ESP32 reference.
+
+141
+00:05:36,112 --> 00:05:39,935
+The USB cable opening faces the controller connector.
+
+142
+00:05:39,872 --> 00:05:43,238
+The antenna extension stays in a plastic region
+
+143
+00:05:43,174 --> 00:05:44,701
+away from the main PCB.
+
+144
+00:05:44,637 --> 00:05:48,015
+This is a mechanical concept with checked model
+
+145
+00:05:47,951 --> 00:05:48,312
+clearances.
+
+146
+00:05:48,248 --> 00:05:53,294
+Printing tolerance, fasteners, cooling, radio performance and a
+
+147
+00:05:53,230 --> 00:05:55,786
+real USB plug still need physical testing.
+
+148
+00:05:56,700 --> 00:05:59,152
+Three control signals still need power and a
+
+149
+00:05:59,088 --> 00:06:02,969
+common ground, so the drawing shows five connections.
+
+150
+00:06:02,905 --> 00:06:05,369
+GPIO twenty-three goes to DATA, eighteen to CLOCK,
+
+151
+00:06:05,305 --> 00:06:07,117
+and nineteen to STROBE.
+
+152
+00:06:07,831 --> 00:06:09,643
+Ground goes to J one pin two;
+
+153
+00:06:09,808 --> 00:06:12,968
+regulated five volts goes to pin one.
+
+154
+00:06:12,904 --> 00:06:15,220
+These H C T inputs are suitable for
+
+155
+00:06:15,156 --> 00:06:18,065
+three point three volt push-pull logic.
+
+156
+00:06:18,001 --> 00:06:20,773
+Use short local wiring.
+
+157
+00:06:20,709 --> 00:06:22,556
+Choose one appropriate power arrangement;
+
+158
+00:06:22,492 --> 00:06:25,447
+do not combine USB and external ESP32 power
+
+159
+00:06:25,383 --> 00:06:25,962
+inputs.
+
+160
+00:06:26,867 --> 00:06:28,873
+The website sends a command through its local
+
+161
+00:06:28,809 --> 00:06:30,405
+server to a real MQTT client.
+
+162
+00:06:30,341 --> 00:06:33,261
+The broker delivers that message to the simulated
+
+163
+00:06:33,198 --> 00:06:35,330
+controller, which publishes an acknowledgement.
+
+164
+00:06:35,266 --> 00:06:38,621
+Only then does the dashboard update the displayed
+
+165
+00:06:38,557 --> 00:06:39,044
+outputs.
+
+166
+00:06:38,980 --> 00:06:42,301
+The drawing animates the named wire paths so
+
+167
+00:06:42,237 --> 00:06:43,409
+you can follow the signal chain.
+
+168
+00:06:43,345 --> 00:06:45,855
+That animation explains the connections;
+
+169
+00:06:45,791 --> 00:06:48,312
+it is not a measurement of current flowing
+
+170
+00:06:48,248 --> 00:06:49,546
+through a physical circuit.
+
+171
+00:06:50,433 --> 00:06:52,394
+Open the local address shown on screen.
+
+172
+00:06:53,107 --> 00:06:55,297
+Choose the board address and click the requested
+
+173
+00:06:55,233 --> 00:06:57,137
+LED pattern.
+
+174
+00:06:57,073 --> 00:07:01,616
+Alternating LEDs sends the byte eighty-five, hexadecimal fifty-five.
+
+175
+00:07:01,552 --> 00:07:05,296
+All LEDs on sends two hundred and fifty-five.
+
+176
+00:07:05,232 --> 00:07:07,056
+The live trace shows both the command topic
+
+177
+00:07:06,992 --> 00:07:09,673
+and the acknowledgement topic, with a sequence number
+
+178
+00:07:10,386 --> 00:07:10,804
+connecting them.
+
+179
+00:07:10,740 --> 00:07:12,941
+We can see the broker and two connected
+
+180
+00:07:12,877 --> 00:07:14,861
+MQTT clients responding to the website.
+
+181
+00:07:15,767 --> 00:07:18,288
+Now deliberately send all LEDs on to address
+
+182
+00:07:18,224 --> 00:07:20,379
+six while the board jumpers select five.
+
+183
+00:07:21,092 --> 00:07:23,636
+The requested buttons change, but the stored output
+
+184
+00:07:23,572 --> 00:07:25,567
+stays at hexadecimal fifty-five.
+
+185
+00:07:26,280 --> 00:07:28,481
+The acknowledgement reports an address mismatch.
+
+186
+00:07:29,194 --> 00:07:31,475
+Return to address five and send again: now
+
+187
+00:07:31,411 --> 00:07:33,086
+all eight indicators change.
+
+188
+00:07:33,799 --> 00:07:36,217
+This demonstrates the reason for the address comparator
+
+189
+00:07:36,154 --> 00:07:37,737
+and the separate output register.
+
+190
+00:07:38,451 --> 00:07:40,800
+An unrelated command must not replace the stored
+
+191
+00:07:40,736 --> 00:07:41,211
+pattern.
+
+192
+00:07:42,100 --> 00:07:44,358
+The demonstration is supplied with a start file,
+
+193
+00:07:44,466 --> 00:07:46,689
+a pinned package lock and local source files.
+
+194
+00:07:47,402 --> 00:07:50,083
+With a supported Node installation, run Start Demo.
+
+195
+00:07:50,796 --> 00:07:52,689
+It installs the pinned dependencies if they are
+
+196
+00:07:52,625 --> 00:07:55,089
+missing, then starts the web server and isolated
+
+197
+00:07:55,025 --> 00:07:55,534
+broker.
+
+198
+00:07:56,247 --> 00:07:58,014
+Both listen only on this computer.
+
+199
+00:07:58,727 --> 00:08:00,631
+Close the running command window or stop the
+
+200
+00:08:00,567 --> 00:08:01,808
+process to end the demo.
+
+201
+00:08:02,521 --> 00:08:04,699
+The setup does not change an existing server
+
+202
+00:08:04,635 --> 00:08:05,773
+or production broker.
+
+203
+00:08:06,700 --> 00:08:09,552
+The controller example separates Wi-Fi and MQTT handling
+
+204
+00:08:09,488 --> 00:08:11,049
+from the sixteen-bit output routine.
+
+205
+00:08:10,985 --> 00:08:14,843
+It starts STROBE high, shifts the address and
+
+206
+00:08:14,779 --> 00:08:17,289
+LED bytes most significant bit first, waits for
+
+207
+00:08:17,225 --> 00:08:20,603
+settling, then pulses STROBE low and high.
+
+208
+00:08:20,539 --> 00:08:23,414
+No clock edge occurs during that low pulse.
+
+209
+00:08:23,350 --> 00:08:26,511
+The example uses placeholders for network credentials and
+
+210
+00:08:26,447 --> 00:08:28,636
+a separate configured broker.
+
+211
+00:08:28,573 --> 00:08:30,225
+It has not been flashed or tested on
+
+212
+00:08:30,161 --> 00:08:32,053
+an ESP32 in this demonstration.
+
+213
+00:08:32,933 --> 00:08:35,294
+One two seven point zero point zero point
+
+214
+00:08:35,230 --> 00:08:38,277
+one always means the device you are using.
+
+215
+00:08:38,213 --> 00:08:40,505
+A physical ESP32 cannot reach this computer by
+
+216
+00:08:40,441 --> 00:08:42,151
+connecting to its own loopback address.
+
+217
+00:08:42,087 --> 00:08:45,351
+A later hardware test needs an accessible broker
+
+218
+00:08:45,287 --> 00:08:49,762
+address, authentication, restricted topics and appropriate network protection.
+
+219
+00:08:49,698 --> 00:08:53,213
+The supplied local demo intentionally stays isolated.
+
+220
+00:08:53,149 --> 00:08:56,755
+The logic simulation and geometry checks are useful
+
+221
+00:08:56,691 --> 00:08:59,464
+evidence, but they do not replace electrical rule
+
+222
+00:08:59,400 --> 00:09:00,732
+checking or bench testing.
+
+223
+00:09:01,633 --> 00:09:04,166
+The Gerber layers and drill files are bundled
+
+224
+00:09:04,879 --> 00:09:05,251
+together.
+
+225
+00:09:05,187 --> 00:09:09,045
+After reviewing the fabrication preview and selected manufacturing
+
+226
+00:09:08,981 --> 00:09:10,999
+options, these files can be uploaded to PCBWay
+
+227
+00:09:10,935 --> 00:09:11,376
+for production.
+
+228
+00:09:11,313 --> 00:09:14,896
+No manufacturing order has been placed.
+
+229
+00:09:15,800 --> 00:09:18,675
+The deliverables connect the whole workflow: native KiCad
+
+230
+00:09:18,611 --> 00:09:22,606
+files, fabrication outputs, an editable FreeCAD enclosure, local
+
+231
+00:09:22,542 --> 00:09:24,926
+web and MQTT source, and the controller example.
+
+232
+00:09:24,862 --> 00:09:28,663
+Codex can help design, code, coordinate and verify
+
+233
+00:09:28,690 --> 00:09:31,246
+these stages quickly when you give your agents
+
+234
+00:09:31,182 --> 00:09:33,280
+clear contracts and inspect their results.
+
+235
+00:09:33,216 --> 00:09:37,748
+Manufacturing and physical acceptance remain the next steps.
+
+236
+00:09:38,461 --> 00:09:40,719
+This is designed with OpenAI Codex, with the
+
+237
+00:09:40,655 --> 00:09:42,707
+tools and limitations shown openly.
+
+238
+00:09:43,500 --> 00:09:46,147
+This prototype was designed with OpenAI Codex for
+
+239
+00:09:46,083 --> 00:09:46,866
+Finn Andre.
+
+240
+00:09:47,580 --> 00:09:49,598
+Real KiCad footage, recorded with OBS.
+
+241
+00:09:49,534 --> 00:09:52,717
+Narration uses paid Microsoft Azure Speech.
+
+242
+00:09:53,431 --> 00:09:55,803
+Keep control of your agents, check the results,
+
+243
+00:09:55,876 --> 00:09:57,677
+and get into Codex right away.

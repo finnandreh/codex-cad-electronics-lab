@@ -1,0 +1,138 @@
+{
+  "status": "PASS",
+  "native_solids": 3,
+  "volumes_mm3": [
+    106357.82361603613,
+    52058.44728903615,
+    4961.968122812719
+  ],
+  "modelled_intersections": [],
+  "LED_alignment": [
+    {
+      "led": 1,
+      "tip": [
+        29.78,
+        25.150000000000006,
+        18.35
+      ],
+      "hole": [
+        29.78,
+        25.15
+      ],
+      "error_mm": 7.105427357601002e-15
+    },
+    {
+      "led": 2,
+      "tip": [
+        41.209999999999994,
+        25.150000000000006,
+        18.35
+      ],
+      "hole": [
+        41.21,
+        25.15
+      ],
+      "error_mm": 1.0048591735576161e-14
+    },
+    {
+      "led": 3,
+      "tip": [
+        52.64,
+        25.150000000000006,
+        18.35
+      ],
+      "hole": [
+        52.64,
+        25.15
+      ],
+      "error_mm": 7.105427357601002e-15
+    },
+    {
+      "led": 4,
+      "tip": [
+        64.07,
+        25.150000000000006,
+        18.35
+      ],
+      "hole": [
+        64.07,
+        25.15
+      ],
+      "error_mm": 1.0048591735576161e-14
+    },
+    {
+      "led": 5,
+      "tip": [
+        75.5,
+        25.150000000000006,
+        18.35
+      ],
+      "hole": [
+        75.5,
+        25.15
+      ],
+      "error_mm": 7.105427357601002e-15
+    },
+    {
+      "led": 6,
+      "tip": [
+        86.92999999999999,
+        25.150000000000006,
+        18.35
+      ],
+      "hole": [
+        86.93,
+        25.15
+      ],
+      "error_mm": 1.0048591735576161e-14
+    },
+    {
+      "led": 7,
+      "tip": [
+        98.36,
+        25.150000000000006,
+        18.35
+      ],
+      "hole": [
+        98.36,
+        25.15
+      ],
+      "error_mm": 7.105427357601002e-15
+    },
+    {
+      "led": 8,
+      "tip": [
+        109.78999999999999,
+        25.150000000000006,
+        18.35
+      ],
+      "hole": [
+        109.78999999999999,
+        25.15
+      ],
+      "error_mm": 7.105427357601002e-15
+    }
+  ],
+  "PCB_mounts_mm": [
+    [
+      16,
+      91
+    ],
+    [
+      118,
+      91
+    ],
+    [
+      16,
+      19
+    ],
+    [
+      118,
+      19
+    ]
+  ],
+  "ESP32_reference": "Official PCB27.94x48.26mm plus6.04mm module antenna extension; heights, socket/header and cable clearances simplified",
+  "light_guides": "Illustrative2.8mm optical rods; purchase/optical retention fit untested",
+  "physical_testing": "Not performed; print tolerance, fastening, USB cable, thermal and RF tests pending",
+  "case_only_exports": "Decorative boards, electronics, light guides and artwork excluded"
+}

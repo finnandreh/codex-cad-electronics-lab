@@ -1,0 +1,111 @@
+{
+  "status": "PASS",
+  "at": "2026-10-12T10:32:03.580Z",
+  "checks": [
+    "Real MQTT address5/mask85 acknowledgement",
+    "Wrong address holds previous output",
+    "Malformed and out-of-range HTTP commands rejected",
+    "Foreign origin rejected",
+    "Unrecognized MQTT client denied"
+  ],
+  "final": {
+    "state": {
+      "address": 5,
+      "mask": 0,
+      "seq": 10,
+      "status": "applied",
+      "received_address": 5,
+      "simulated": true
+    },
+    "events": [
+      {
+        "at": "2026-10-12T10:32:03.574Z",
+        "kind": "MQTT",
+        "message": "codex-demo-esp32-simulator → codex/address-led/state/5 {\"address\":5,\"mask\":0,\"seq\":10,\"status\":\"applied\",\"received_address\":5,\"simulated\":true}"
+      },
+      {
+        "at": "2026-10-12T10:32:03.574Z",
+        "kind": "MQTT",
+        "message": "codex-demo-web → codex/address-led/set {\"version\":1,\"seq\":10,\"address\":5,\"mask\":0}"
+      },
+      {
+        "at": "2026-10-12T10:32:03.569Z",
+        "kind": "ERROR",
+        "message": "unauthorized-review-client: not authorized"
+      },
+      {
+        "at": "2026-10-12T10:32:03.461Z",
+        "kind": "MQTT",
+        "message": "codex-demo-esp32-simulator → codex/address-led/state/5 {\"address\":5,\"mask\":85,\"seq\":5,\"status\":\"address_mismatch\",\"received_address\":6,\"simulated\":true}"
+      },
+      {
+        "at": "2026-10-12T10:32:03.460Z",
+        "kind": "MQTT",
+        "message": "codex-demo-web → codex/address-led/set {\"version\":1,\"seq\":5,\"address\":6,\"mask\":255}"
+      },
+      {
+        "at": "2026-10-12T10:32:03.446Z",
+        "kind": "MQTT",
+        "message": "codex-demo-esp32-simulator → codex/address-led/state/5 {\"address\":5,\"mask\":85,\"seq\":4,\"status\":\"applied\",\"received_address\":5,\"simulated\":true}"
+      },
+      {
+        "at": "2026-10-12T10:32:03.445Z",
+        "kind": "MQTT",
+        "message": "codex-demo-web → codex/address-led/set {\"version\":1,\"seq\":4,\"address\":5,\"mask\":85}"
+      },
+      {
+        "at": "2026-10-12T10:28:53.997Z",
+        "kind": "MQTT",
+        "message": "codex-demo-esp32-simulator → codex/address-led/state/5 {\"address\":5,\"mask\":0,\"seq\":3,\"status\":\"applied\",\"received_address\":5,\"simulated\":true}"
+      },
+      {
+        "at": "2026-10-12T10:28:53.996Z",
+        "kind": "MQTT",
+        "message": "codex-demo-web → codex/address-led/set {\"version\":1,\"seq\":3,\"address\":5,\"mask\":0}"
+      },
+      {
+        "at": "2026-10-12T10:27:59.081Z",
+        "kind": "MQTT",
+        "message": "codex-demo-esp32-simulator → codex/address-led/state/5 {\"address\":5,\"mask\":85,\"seq\":2,\"status\":\"address_mismatch\",\"received_address\":6,\"simulated\":true}"
+      },
+      {
+        "at": "2026-10-12T10:27:59.080Z",
+        "kind": "MQTT",
+        "message": "codex-demo-web → codex/address-led/set {\"version\":1,\"seq\":2,\"address\":6,\"mask\":255}"
+      },
+      {
+        "at": "2026-10-12T10:27:54.485Z",
+        "kind": "MQTT",
+        "message": "codex-demo-esp32-simulator → codex/address-led/state/5 {\"address\":5,\"mask\":85,\"seq\":1,\"status\":\"applied\",\"received_address\":5,\"simulated\":true}"
+      },
+      {
+        "at": "2026-10-12T10:27:54.484Z",
+        "kind": "MQTT",
+        "message": "codex-demo-web → codex/address-led/set {\"version\":1,\"seq\":1,\"address\":5,\"mask\":85}"
+      },
+      {
+        "at": "2026-10-12T10:16:14.361Z",
+        "kind": "MQTT",
+        "message": "codex-demo-esp32-simulator → codex/address-led/state/5 {\"address\":5,\"mask\":0,\"seq\":0,\"status\":\"ready\",\"simulated\":true}"
+      },
+      {
+        "at": "2026-10-12T10:16:14.355Z",
+        "kind": "CONNECT",
+        "message": "codex-demo-web"
+      },
+      {
+        "at": "2026-10-12T10:16:14.353Z",
+        "kind": "CONNECT",
+        "message": "codex-demo-esp32-simulator"
+      }
+    ],
+    "broker": {
+      "host": "127.0.0.1",
+      "port": 18884,
+      "clients": 2,
+      "implementation": "Aedes 1.2.0 / MQTT 3.1.1"
+    },
+    "connected": true
+  },
+  "physical_hardware": "Not connected; device simulated"
+}

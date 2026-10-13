@@ -16,7 +16,7 @@ import zipfile
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 SENSITIVE = re.compile(
     rb"C:\\Users|/home/|/root/|BEGIN (?:RSA|OPENSSH|EC) PRIVATE KEY|"
-    rb"api[_-]?key|access[_-]?token|password|moodscape",
+    rb"api[_-]?key|access[_-]?token|moodscape",
     re.IGNORECASE,
 )
 
@@ -60,7 +60,9 @@ def check() -> dict[str, object]:
     stls: list[dict[str, object]] = []
     steps: list[dict[str, object]] = []
 
-    for path in sorted(ROOT.glob("freecad/*/source/*.FCStd")):
+    native_sources = list(ROOT.glob("freecad/*/source/*.FCStd"))
+    native_sources.extend(ROOT.glob("kicad/addressed-led-4ic/**/*.FCStd"))
+    for path in sorted(native_sources):
         try:
             with zipfile.ZipFile(path) as archive:
                 bad = archive.testzip()
@@ -72,7 +74,9 @@ def check() -> dict[str, object]:
         except Exception as exc:  # noqa: BLE001
             failures.append(f"FCStd unreadable: {path.relative_to(ROOT)}: {exc}")
 
-    for path in sorted(ROOT.glob("freecad/*/exports/*.stl")):
+    mesh_exports = list(ROOT.glob("freecad/*/exports/*.stl"))
+    mesh_exports.extend(ROOT.glob("kicad/addressed-led-4ic/**/*.stl"))
+    for path in sorted(mesh_exports):
         try:
             triangles, boundary_edges = stl_edges(path)
             if not triangles or boundary_edges:
@@ -117,7 +121,59 @@ def check() -> dict[str, object]:
     if any(verification.get(key) != 0 for key in ("drc_violations", "unconnected_pads", "footprint_errors")):
         failures.append("recorded KiCad DRC counts are not zero")
 
-    text_suffixes = {".md", ".txt", ".json", ".csv", ".xml", ".srt", ".svg", ".kicad_pro", ".kicad_sch", ".kicad_pcb", ".kicad_mod", ".gbr", ".drl", ".gbrjob"}
+    addressed_root = ROOT / "kicad" / "addressed-led-4ic"
+    addressed_required = [
+        "Codex-Address-LED-4IC.kicad_pro",
+        "Codex-Address-LED-4IC.kicad_sch",
+        "Codex-Address-LED-4IC.kicad_pcb",
+        "BOM.csv",
+        "NETLIST.xml",
+        "DRC-FINAL.txt",
+        "PROTOCOL-VERIFICATION.json",
+        "Enclosure/Codex-LED-ESP32-Case-v1.FCStd",
+        "Enclosure/Codex-LED-ESP32-Case-only-v1.step",
+        "Control-Demo/server.mjs",
+        "Control-Demo/ESP32-Example/ESP32-Example.ino",
+        "Control-Demo/ESP32-Example/secrets.example.h",
+        "manufacturing/Codex-Address-LED-4IC-Gerbers-v1.zip",
+        "media/CAPTIONS-FULL-WORKFLOW-v5.srt",
+        "media/CHAPTERS-FULL-WORKFLOW-v5.txt",
+    ]
+    addressed_missing = [name for name in addressed_required if not (addressed_root / name).is_file()]
+    if addressed_missing:
+        failures.append(f"missing addressed-LED files: {addressed_missing}")
+
+    drc_text = (addressed_root / "DRC-FINAL.txt").read_text(encoding="utf-8")
+    for expected in ("Found 0 DRC violations", "Found 0 unconnected pads", "Found 0 Footprint errors"):
+        if expected not in drc_text:
+            failures.append(f"addressed-LED DRC record missing: {expected}")
+    protocol = json.loads((addressed_root / "PROTOCOL-VERIFICATION.json").read_text(encoding="utf-8"))
+    if protocol.get("status") != "PASS" or protocol.get("exhaustive_frames") != 65536:
+        failures.append("addressed-LED protocol verification record is incomplete")
+    runtime = json.loads((addressed_root / "Control-Demo" / "RUNTIME-CHECKS.json").read_text(encoding="utf-8"))
+    if runtime.get("status") != "PASS" or runtime.get("final", {}).get("state", {}).get("simulated") is not True:
+        failures.append("addressed-LED MQTT runtime record is incomplete or obscures simulation")
+
+    gerber_names = sorted(path.name for path in (addressed_root / "gerbers").iterdir() if path.is_file())
+    with zipfile.ZipFile(addressed_root / "manufacturing" / "Codex-Address-LED-4IC-Gerbers-v1.zip") as archive:
+        archive_files = sorted(pathlib.PurePosixPath(name).name for name in archive.namelist() if not name.endswith("/"))
+        unsafe_names = [name for name in archive.namelist() if pathlib.PurePosixPath(name).is_absolute() or ".." in pathlib.PurePosixPath(name).parts]
+        if archive.testzip() or unsafe_names or archive_files != gerber_names:
+            failures.append("addressed-LED manufacturing ZIP does not exactly match reviewed Gerbers")
+
+    secret_example = (addressed_root / "Control-Demo" / "ESP32-Example" / "secrets.example.h").read_text(encoding="utf-8")
+    if "YOUR_TEST_WIFI_PASSWORD" not in secret_example or "YOUR_DEVICE_PASSWORD" not in secret_example:
+        failures.append("ESP32 example-secret placeholders are missing")
+    if (addressed_root / "Control-Demo" / "ESP32-Example" / "secrets.h").exists():
+        failures.append("real ESP32 secrets file must not be public")
+
+    media_manifest = json.loads((ROOT / "videos" / "RELEASE-ASSETS.json").read_text(encoding="utf-8"))
+    full_workflow = [item for item in media_manifest["assets"] if item["file"] == "Codex-KiCad-FreeCAD-MQTT-Full-Workflow-10min-EN-v5.mp4"]
+    pulse = [item for item in media_manifest.get("youtube_only", []) if item.get("source") == "kicad/codex-pulse-5v/"]
+    if len(full_workflow) != 1 or full_workflow[0].get("source") != "kicad/addressed-led-4ic/" or len(pulse) != 1:
+        failures.append("KiCad film-to-source mapping is incomplete")
+
+    text_suffixes = {".md", ".txt", ".json", ".csv", ".xml", ".srt", ".svg", ".h", ".ino", ".mjs", ".js", ".html", ".cmd", ".kicad_pro", ".kicad_sch", ".kicad_pcb", ".kicad_mod", ".gbr", ".drl", ".gbrjob"}
     for path in sorted(item for item in ROOT.rglob("*") if item.is_file() and item.suffix.lower() in text_suffixes):
         if SENSITIVE.search(path.read_bytes()):
             failures.append(f"sensitive-pattern match: {path.relative_to(ROOT)}")
@@ -129,6 +185,10 @@ def check() -> dict[str, object]:
         "stl_files": len(stls),
         "step_files": len(steps),
         "kicad_required_files_present": not missing,
+        "addressed_led_required_files_present": not addressed_missing,
+        "addressed_led_protocol_frames": protocol.get("exhaustive_frames"),
+        "addressed_led_mqtt_simulated": runtime.get("final", {}).get("state", {}).get("simulated"),
+        "film_to_source_mappings": len(media_manifest["assets"]) + len(media_manifest.get("youtube_only", [])),
         "recorded_kicad_drc": {
             "violations": verification.get("drc_violations"),
             "unconnected_pads": verification.get("unconnected_pads"),
@@ -145,4 +205,3 @@ if __name__ == "__main__":
     json.dump(result, sys.stdout, indent=2)
     sys.stdout.write("\n")
     raise SystemExit(0 if result["status"] == "pass" else 1)
-

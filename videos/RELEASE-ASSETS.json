@@ -2,6 +2,7 @@
   "release_tag": "evidence-2026-10-12",
   "licence": "CC-BY-4.0",
   "generated_at": "2026-10-12",
+  "updated_at": "2026-10-13",
   "assets": [
     {"file":"Original-Control-Box-EN-v2.mp4","sha256":"f34179b718d4c5fdad716d8d69f8fd6b7d8c61a753a0c22f5607e47f3710590b","youtube":"https://youtube.com/shorts/aSlC_pHwm3w","status":"public_verified_2026-10-11"},
     {"file":"Vented-Wall-Box-EN-v3.mp4","sha256":"2347d44e41726da8b5ec7296f8b6edcdc1628ff74717ba74c982dd105a8905d3","youtube":"https://youtube.com/shorts/YksfvrERqcE","status":"scheduled_verified","scheduled_at":"2026-10-12T06:00:00+02:00"},
@@ -17,6 +18,10 @@
     {"file":"XIAO-ESP32C3-Case-EN-v1.mp4","sha256":"712ffb9c84a3c35072d0a5197374247de61d95f81ae0e3734f30c2eeed2bc4e2","youtube":"https://youtube.com/shorts/zEbMOSpfGsM","status":"scheduled_verified","scheduled_at":"2026-10-12T16:00:00+02:00"},
     {"file":"XIAO-SAMD21-Case-EN-v1.mp4","sha256":"ba8ee027510c7fe8313f553cb3d794f6fe2bd6ad86ce6e5328a4c8d196db6c3e","youtube":"https://youtube.com/shorts/16ucF9Jwm48","status":"scheduled_verified","scheduled_at":"2026-10-12T17:00:00+02:00"},
     {"file":"Nano-33-IoT-Case-EN-v1.mp4","sha256":"85827cca5f5e9eab79f7c6a25d321a8a161c5065d70a5097e74a8bbe6e97199e","youtube":"https://youtube.com/shorts/3WT94s_HcS0","status":"scheduled_verified","scheduled_at":"2026-10-12T18:00:00+02:00"},
-    {"file":"Jetson-Orin-Nano-Case-EN-v1.mp4","sha256":"09cb2320ab2893f1f77b93eb17d0abfa7d66a6060836bda323f1d14e9099a866","youtube":null,"status":"github_release_only_no_social_slot"}
+    {"file":"Jetson-Orin-Nano-Case-EN-v1.mp4","sha256":"09cb2320ab2893f1f77b93eb17d0abfa7d66a6060836bda323f1d14e9099a866","youtube":null,"status":"github_release_only_no_social_slot"},
+    {"file":"Codex-KiCad-FreeCAD-MQTT-Full-Workflow-10min-EN-v5.mp4","sha256":"36e50339378d485888e99282146dba78f6cee45e7d6a15c356c44fe37dfe8331","youtube":"https://www.youtube.com/watch?v=lBj9bRSQ6mM","status":"public_verified_2026-10-13","source":"kicad/addressed-led-4ic/","duration_seconds":600}
+  ],
+  "youtube_only": [
+    {"title":"KiCad Pulse 5 V","youtube":"https://www.youtube.com/shorts/IghM537UqvI","source":"kicad/codex-pulse-5v/","reason":"approved master retained in a private verified archive; no reconstructed download"}
   ]
 }

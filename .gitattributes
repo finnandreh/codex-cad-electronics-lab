@@ -1,0 +1,3 @@
+# Preserve reviewed generated CAD/EDA exports while accepting their CRLF records.
+kicad/addressed-led-4ic/** whitespace=cr-at-eol
+kicad/addressed-led-4ic/**/*.step -whitespace
